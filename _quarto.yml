@@ -5,13 +5,9 @@ website:
   description: "Ingeniero Civil Ambiental  |  Magíster en Manejo de Recursos Naturales"
   site-url: fcorubilarrocha@gmail.com
   title: "Francisco J. Rubilar Rocha"
-  navbar:
+  navbar: 
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: bluesky
-        href: https://bsky.app/
 format:
   html:
     theme:

@@ -71,37 +71,5 @@
   <guid>fcorubilarrocha@gmail.com/posts/sig-lago-budi/</guid>
   <pubDate>Sat, 02 May 2026 04:00:00 GMT</pubDate>
 </item>
-<item>
-  <title>Diagnóstico ambiental rural con dron Phantom 4 Pro</title>
-  <dc:creator>Francisco Rubilar Rocha</dc:creator>
-  <link>fcorubilarrocha@gmail.com/posts/drones/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Aquí escribes el cuerpo del artículo en markdown normal.</p>
-<section id="subtítulos-así" class="level2">
-<h2 class="anchored" data-anchor-id="subtítulos-así">Subtítulos así</h2>
-<p>Texto, <strong>negritas</strong>, <em>cursivas</em>, <a href="https://ejemplo.com">enlaces</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="fcorubilarrocha@gmail.com/posts/drones/mi-imagen.png" class="img-fluid figure-img"></p>
-<figcaption>Caption de imagen</figcaption>
-</figure>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>drones</category>
-  <category>gestión municipal</category>
-  <category>La Araucanía</category>
-  <guid>fcorubilarrocha@gmail.com/posts/drones/</guid>
-  <pubDate>Fri, 30 Jan 2026 03:00:00 GMT</pubDate>
-  <media:content url="fcorubilarrocha@gmail.com/posts/drones/portada.jpg" medium="image" type="image/jpeg"/>
-</item>
 </channel>
 </rss>

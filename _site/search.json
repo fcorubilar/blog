@@ -42,13 +42,6 @@
     "text": "Datos y reproducibilidad\nLas coordenadas de las estaciones están en sistema WGS84 (EPSG:4326). La geometría espacial fue capturada con GPS de mano, con precisión submétrica para fines cartográficos (no topográficos).\nSi trabajas en gestión de cuerpos de agua y te interesa replicar este enfoque metodológico en otra cuenca, puedes escribirme a fcorubilarrocha@gmail.com."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "panchorubilar",
-    "section": "",
-    "text": "Cartografía interactiva de calidad de agua del Lago Budi\n\n\n17 estaciones, 8 parámetros, contraste con NCh1333\n\n\n\nSIG\n\ncalidad de agua\n\nLago Budi\n\nNCh1333\n\ncartografía interactiva\n\n\n\nVisualizador SIG con mediciones de calidad de agua superficial y de lecho en el Lago Budi, contrastadas con los requisitos de la Norma Chilena NCh1333.Of78 para uso recreativo con contacto directo.\n\n\n\n\n\nMay 2, 2026\n\n\nFrancisco Rubilar Rocha\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnóstico ambiental rural con dron Phantom 4 Pro\n\n\nQué se puede y qué no en municipios de menos de 20 mil habitantes\n\n\n\ndrones\n\ngestión municipal\n\nLa Araucanía\n\n\n\n\n\n\n\n\n\nJan 30, 2026\n\n\nFrancisco Rubilar Rocha\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Sobre mí",
@@ -98,17 +91,10 @@
     "text": "Conversemos\nEstoy disponible para colaboraciones, charlas, asesorías técnicas y consultas profesionales. La forma más rápida de contactarme es por correo: fcorubilarrocha@gmail.com."
   },
   {
-    "objectID": "posts/drones/index.html",
-    "href": "posts/drones/index.html",
-    "title": "Diagnóstico ambiental rural con dron Phantom 4 Pro",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pase, revise y lea sin compromiso",
     "section": "",
-    "text": "Aquí escribes el cuerpo del artículo en markdown normal."
-  },
-  {
-    "objectID": "posts/drones/index.html#subtítulos-así",
-    "href": "posts/drones/index.html#subtítulos-así",
-    "title": "Diagnóstico ambiental rural con dron Phantom 4 Pro",
-    "section": "Subtítulos así",
-    "text": "Subtítulos así\nTexto, negritas, cursivas, enlaces.\n\n\n\nCaption de imagen"
+    "text": "Cartografía interactiva de calidad de agua del Lago Budi\n\n\n17 estaciones, 8 parámetros, contraste con NCh1333\n\n\n\nSIG\n\ncalidad de agua\n\nLago Budi\n\nNCh1333\n\ncartografía interactiva\n\n\n\nVisualizador SIG con mediciones de calidad de agua superficial y de lecho en el Lago Budi, contrastadas con los requisitos de la Norma Chilena NCh1333.Of78 para uso recreativo con contacto directo.\n\n\n\n\n\nMay 2, 2026\n\n\nFrancisco Rubilar Rocha\n\n\n\n\n\nNo matching items"
   }
 ]

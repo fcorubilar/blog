@@ -14,7 +14,7 @@ categories:
 toc: false
 format:
   html:
-    page-layout: full
+    page-layout: article
 ---
 
 ## Sobre este visualizador
