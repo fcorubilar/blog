@@ -1,14 +1,11 @@
 ---
 title: "Cuánta playa perdió Puerto Saavedra"
-subtitle: "Cuatro décadas de línea de costa medidas desde satélite"
+subtitle: "Cuatro décadas de línea de costa medidas con datos satelitetales"
 description: |
-  El frente costero de Puerto Saavedra retrocede 4,36 metros al año. No se
-  había medido antes. Así se hizo, y esto es lo que significa.
+  El frente costero del sector de Playa Maule en Puerto Saavedra retrocede 4,36 metros al año. No se había medido antes con esta exactitud. En este artículo te muestro el proceso de obtención de imágenes satelitales, su geoprocesamiento, vectorización y análisis estadístico. Todas las operaciones basadas en la evidencia más actualizada, se ejecutaron en software de código abierto. Un proceso gratis y replicable para mejorar la gestión ambiental y de riesgo del desastre a nivel local.
 date: 2026-08-18
 author: "Francisco Rubilar Rocha"
 categories: [teledetección, borde costero, Saavedra, gestión del riesgo]
-image: img/nubes-lineas-costa.png
-image-alt: "Nubes de puntos de la línea de costa de Playa Maule en tres períodos"
 lang: es
 toc: true
 toc-title: "Contenidos"
@@ -26,8 +23,8 @@ su fuerza y calmar las angustias y tribulaciones en su entorno amable y
 poderoso.
 
 |  |  |
-|:--:|:--:|
-| ![](playamauleponiente.JPG){width="332"} | ![](playamauleponiente2.jpeg) |
+|:----------------------------------:|:----------------------------------:|
+| ![](playamauleponiente.JPG){width="901"} | ![](playamauleponiente2.jpeg) |
 | *Playa Maule a media tarde, a 200 metros de Cerro Maule el estacionamiento público.* | *Playa Maule al atardecer, a pocos metros de la barra Sur.* |
 
 Y su belleza no radica solo en el cliché del atardecer en el mar, que se
@@ -35,7 +32,7 @@ cumple a cabalidad y de forma esplendorosa, si no que también la magia
 inunda con misterio los días nublados.
 
 |  |
-|:--:|
+|:----------------------------------------------------------------------:|
 | ![](cerromaule_playamaule2.jpeg) |
 | *Playa Maule un día nublado, a 500 metros del Cerro Maule abrazando en su extensión a cientos de turistas* |
 | ![](playamaule.jpeg) |
@@ -78,19 +75,32 @@ Tampoco hay informes de organismos de emergencia que cuantifiquen el
 proceso: la intervención institucional se limita a alertas operativas
 por marejadas.
 
-En el propio Plan de Acción Comunal de Cambio Climático reconocemos la
-erosión del borde costero como riesgo comunal, pero en su diseño no se
-pudo cuantificar las cadenas de impacto por falta de información local
-de base. Este levantamiento es precisamente esa base.
+En el propio Plan de Acción Comunal de Cambio Climático de Saavedra,
+reconocemos la erosión del borde costero como riesgo comunal, pero en su
+diseño no se pudo cuantificar las cadenas de impacto por falta de
+información local de base. Este levantamiento es precisamente esa base.
 
 ## Cómo se mide una playa desde el espacio
 
-La idea de fondo es simple. El agua y la arena reflejan la luz de forma
-muy distinta en el infrarrojo de onda corta: el agua absorbe casi toda
-esa energía y aparece oscura, mientras la arena seca la refleja.
-Combinando esa banda con la del verde se obtiene un índice que separa
-ambas superficies con nitidez, y el límite entre las dos es la línea de
-costa.
+Cuando "vemos" un paisaje, en realidad vemos la luz del sol que ese
+paisaje refleja. Nuestros ojos son sensores que "captan" la luz que les
+llega de rebote al chocar, literalmente, con todo lo que alcanza nuestra
+vista. Y esa luz le da texturas y colores a las cosas con las que
+interactúa. Luego, nuestro cerebro interpreta esa información de
+texturas y colores y nos permite discriminar en un paisaje lo que es un
+árbol, lo que es una piedra, lo que es agua y lo que es suelo. Los
+satélites hacen lo mismo, pero con unos SUPER OJOS, que les permiten
+"ver" el calor que emitimos todos los seres vivos e incluso el nivel de
+clorofila en un predio forestal. Y con esa supervista, los satélites, a
+kilómetros sobre el suelo pueden discriminar MUCHAS más cosas que
+nuestros ojos, en todo el espectro electromagnético (bandas
+electromagnéticas).
+
+El agua y la arena reflejan la luz de forma muy distinta en el
+infrarrojo de onda corta: el agua absorbe casi toda esa energía y
+aparece oscura, mientras la arena seca, la refleja. Combinando esa banda
+con la del verde se obtiene un índice que separa ambas superficies con
+nitidez, **y el límite entre las dos es la línea de costa.**
 
 Lo que hace interesante el ejercicio no es medir una vez, sino medir
 muchas. El archivo satelital abierto de la NASA y el Servicio Geológico
@@ -100,10 +110,10 @@ décadas de fotografías del mismo lugar, tomadas cada dos semanas,
 disponibles sin costo.
 
 El levantamiento procesó **2.899 imágenes de cinco misiones
-satelitales**, de las que se obtuvieron **1.457 posiciones válidas de la
-línea de costa**. Cada posición se mide con precisión subpíxel, es decir
-mejor que el tamaño nominal de la celda de 30 metros, mediante
-interpolación del índice espectral.
+satelitales**, de las que obtuve **1.457 posiciones válidas de la línea
+de costa**. Cada posición se mide con precisión subpíxel, es decir mejor
+que el tamaño nominal de la celda de 30 metros, mediante interpolación
+del índice espectral.
 
 ::: {.callout-note collapse="true"}
 ## Sobre los transectos

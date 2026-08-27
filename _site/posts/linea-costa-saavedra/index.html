@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Francisco Rubilar Rocha">
-<meta name="description" content="El frente costero de Puerto Saavedra retrocede 4,36 metros al año. No se había medido antes. Así se hizo, y esto es lo que significa.">
+<meta name="description" content="El frente costero del sector de Playa Maule en Puerto Saavedra retrocede 4,36 metros al año. No se había medido antes con esta exactitud. En este artículo te muestro el proceso de obtención de imágenes satelitales, su geoprocesamiento, vectorización y análisis estadístico. Todas las operaciones basadas en la evidencia más actualizada, se ejecutaron en software de código abierto. Un proceso gratis y replicable para mejorar la gestión ambiental y de riesgo del desastre a nivel local.">
 
 <title>Cuánta playa perdió Puerto Saavedra – Francisco J. Rubilar Rocha</title>
 <style>
@@ -114,10 +114,10 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Cuánta playa perdió Puerto Saavedra</h1>
-            <p class="subtitle lead">Cuatro décadas de línea de costa medidas desde satélite</p>
+            <p class="subtitle lead">Cuatro décadas de línea de costa medidas con datos satelitetales</p>
                   <div>
         <div class="description">
-          <p>El frente costero de Puerto Saavedra retrocede 4,36 metros al año. No se había medido antes. Así se hizo, y esto es lo que significa.</p>
+          <p>El frente costero del sector de Playa Maule en Puerto Saavedra retrocede 4,36 metros al año. No se había medido antes con esta exactitud. En este artículo te muestro el proceso de obtención de imágenes satelitales, su geoprocesamiento, vectorización y análisis estadístico. Todas las operaciones basadas en la evidencia más actualizada, se ejecutaron en software de código abierto. Un proceso gratis y replicable para mejorar la gestión ambiental y de riesgo del desastre a nivel local.</p>
         </div>
       </div>
                           <div class="quarto-categories">
@@ -187,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><img src="playamauleponiente.JPG" class="img-fluid" width="332"></td>
+<td style="text-align: center;"><img src="playamauleponiente.JPG" class="img-fluid" width="901"></td>
 <td style="text-align: center;"><img src="playamauleponiente2.jpeg" class="img-fluid"></td>
 </tr>
 <tr class="even">
@@ -224,13 +224,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="por-qué-no-estaba-medido">Por qué no estaba medido</h2>
 <p>En la revisión de antecedentes, encontré tres categorías de información sobre la costa de Saavedra, y ninguna cuantifica el retroceso. Hay estudios geomorfológicos regionales (<a href="https://scielo.conicyt.cl/pdf/rgeong/n58/art13.pdf">Peña-Cortés, 2014</a>) que describen la costa de La Araucanía sin entregar tasas de cambio. <a href="https://www.researchgate.net/publication/344242491_Interpretaciones_geologicas_de_remociones_en_masa_en_latitudes_medias_Caso_de_estudio_en_la_zona_de_Puerto_Saavedra_IX_Region">Ledezma (2020)</a> realizó, en el marco del proyecto FONDECYT 11180500, el primer estudio dedicado a interpretar geológicamente los procesos de remoción en masa en la zona de Puerto Saavedra, incluyendo el primer mapa de susceptibilidad para el sector, aunque acotado a procesos de ladera puntuales sin proyección hacia el retroceso de la línea de costa.</p>
 <p>Tampoco hay informes de organismos de emergencia que cuantifiquen el proceso: la intervención institucional se limita a alertas operativas por marejadas.</p>
-<p>En el propio Plan de Acción Comunal de Cambio Climático reconocemos la erosión del borde costero como riesgo comunal, pero en su diseño no se pudo cuantificar las cadenas de impacto por falta de información local de base. Este levantamiento es precisamente esa base.</p>
+<p>En el propio Plan de Acción Comunal de Cambio Climático de Saavedra, reconocemos la erosión del borde costero como riesgo comunal, pero en su diseño no se pudo cuantificar las cadenas de impacto por falta de información local de base. Este levantamiento es precisamente esa base.</p>
 </section>
 <section id="cómo-se-mide-una-playa-desde-el-espacio" class="level2">
 <h2 class="anchored" data-anchor-id="cómo-se-mide-una-playa-desde-el-espacio">Cómo se mide una playa desde el espacio</h2>
-<p>La idea de fondo es simple. El agua y la arena reflejan la luz de forma muy distinta en el infrarrojo de onda corta: el agua absorbe casi toda esa energía y aparece oscura, mientras la arena seca la refleja. Combinando esa banda con la del verde se obtiene un índice que separa ambas superficies con nitidez, y el límite entre las dos es la línea de costa.</p>
+<p>Cuando “vemos” un paisaje, en realidad vemos la luz del sol que ese paisaje refleja. Nuestros ojos son sensores que “captan” la luz que les llega de rebote al chocar, literalmente, con todo lo que alcanza nuestra vista. Y esa luz le da texturas y colores a las cosas con las que interactúa. Luego, nuestro cerebro interpreta esa información de texturas y colores y nos permite discriminar en un paisaje lo que es un árbol, lo que es una piedra, lo que es agua y lo que es suelo. Los satélites hacen lo mismo, pero con unos SUPER OJOS, que les permiten “ver” el calor que emitimos todos los seres vivos e incluso el nivel de clorofila en un predio forestal. Y con esa supervista, los satélites, a kilómetros sobre el suelo pueden discriminar MUCHAS más cosas que nuestros ojos, en todo el espectro electromagnético (bandas electromagnéticas).</p>
+<p>El agua y la arena reflejan la luz de forma muy distinta en el infrarrojo de onda corta: el agua absorbe casi toda esa energía y aparece oscura, mientras la arena seca, la refleja. Combinando esa banda con la del verde se obtiene un índice que separa ambas superficies con nitidez, <strong>y el límite entre las dos es la línea de costa.</strong></p>
 <p>Lo que hace interesante el ejercicio no es medir una vez, sino medir muchas. El archivo satelital abierto de la NASA y el Servicio Geológico de Estados Unidos cubre la costa chilena desde 1986 de forma continua, y Copernicus lo complementa desde 2015 con mayor resolución. Son cuatro décadas de fotografías del mismo lugar, tomadas cada dos semanas, disponibles sin costo.</p>
-<p>El levantamiento procesó <strong>2.899 imágenes de cinco misiones satelitales</strong>, de las que se obtuvieron <strong>1.457 posiciones válidas de la línea de costa</strong>. Cada posición se mide con precisión subpíxel, es decir mejor que el tamaño nominal de la celda de 30 metros, mediante interpolación del índice espectral.</p>
+<p>El levantamiento procesó <strong>2.899 imágenes de cinco misiones satelitales</strong>, de las que obtuve <strong>1.457 posiciones válidas de la línea de costa</strong>. Cada posición se mide con precisión subpíxel, es decir mejor que el tamaño nominal de la celda de 30 metros, mediante interpolación del índice espectral.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">

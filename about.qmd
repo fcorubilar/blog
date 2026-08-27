@@ -27,13 +27,13 @@ Llevo más de diez años implementando gestión ambiental en Chile, desempeñán
 
 Cuando alguien me pregunta a qué me dedico exactamente, respondo que **ayudo a que las decisiones ambientales y productivas se tomen con datos, no con intuiciones**. Ello implica levantar y dirigir líneas base, la aplicación de sensores remotos y SIG, la modelación de contaminantes, el análisis de ciclo de vida de productos y servicios, el diseño y ejecución de talleres de participación ciudadana con sensibilidad socioambiental, y la elaboración de proyectos que se ejecuten cosas concretas.
 
-A lo largo de mi trayectoria he liderado o participado en proyectos que han movilizado **más de $203 millones de pesos** en financiamiento público y privado para iniciativas ambientales en La Araucanía y otras regiones del país.
+A lo largo de mi trayectoria he liderado o participado en proyectos que han movilizado financiamiento público y privado para iniciativas ambientales en La Araucanía y otras regiones del país.
 
 ## Áreas de especialidad
 
-- **Calidad de aire y modelación atmosférica.** Diplomado de la Universidad de Santiago de Chile. Monitoreo móvil de material particulado en diversas comunas; fundación de la Red Comunitaria de Calidad de Aire - Respiracción.
+- **Calidad de aire y modelación atmosférica.** Diplomado de la Universidad de Santiago de Chile. Monitoreo móvil de material particulado en diversas comunas; líder de la Red Comunitaria de Calidad de Aire - Respiracción.
 - **Análisis de Ciclo de Vida y Huella de Carbono.** Diplomado de la Universidad Andrés Bello. Proyecto Climat AmSud sobre Huella de Carbono Hospitalaria; Medición y reporte de emisiones en Huella Chile.
-- **Sistemas de Información Geográfica.** ArcGIS, QGIS y R aplicados a diagnóstico ambiental territorial.
+- **Sistemas de Información Geográfica.** ArcGIS, QGIS, Python y R aplicados a diagnóstico ambiental territorial.
 - **Drones y sensores remotos.** Diplomado en Universidad de La Fronteera.Uso de Phantom 4 Pro como herramienta de campo; uso de equipamiento de medición multiparamétrica para calidad de agua.
 - **Gestión de residuos sólidos.** Evaluador acreditado de ChileValora para perfiles de servicios de gestión de residuos. He evaluado a más de 250 recicladores en 17 ciudades de Chile.
 - **Participación ciudadana ambiental.** Más de 4.000 encuestas territoriales aplicadas en La Araucanía y experiencia directa en programas PRAS (Quintero-Puchuncaví, Huasco, Coronel). Mediación institucional en conflictos socioambientales.
@@ -55,4 +55,4 @@ Si trabajas en gestión ambiental municipal, te interesa la calidad de aire en C
 
 ## Conversemos
 
-Estoy disponible para colaboraciones, charlas, asesorías técnicas y consultas profesionales. La forma más rápida de contactarme es por correo: [fcorubilarrocha@gmail.com](mailto:fcorubilarrocha@gmail.com).
+Estoy disponible para colaboraciones, charlas, asesorías técnicas y consultas profesionales. La forma más rápida de contactarme es por correo: [fcorubilarrocha\@gmail.com](mailto:fcorubilarrocha@gmail.com).
