@@ -151,7 +151,7 @@
     "href": "posts/linea-costa-saavedra/index.html#limitaciones",
     "title": "Cuánta playa ha perdido Puerto Saavedra",
     "section": "Limitaciones",
-    "text": "Limitaciones\nEstos resultados son preliminares falta aplicar la corrección por nivel de marea. Una línea de costa detectada con marea alta aparece más retraída que la misma costa con marea baja, y esa diferencia se suma como ruido a la serie. La corrección está en ejecución y se espera que modifique las magnitudes sin alterar la dirección ni el orden de magnitud de las tendencias.\nHay además un vacío de cobertura satelital entre 1988 y 1997, por limitaciones históricas de recepción de datos en Sudamérica. Recalculando las tasas sin el período previo al vacío, la variación es de 0,06 metros por año en el sector crítico, de modo que la tendencia es robusta a ese hueco."
+    "text": "Limitaciones\nEstos resultados son preliminares y falta aplicar la corrección por nivel de marea. Una línea de costa detectada con marea alta aparece más retraída que la misma costa con marea baja, y esa diferencia se suma como ruido a la serie. La corrección está en ejecución y se espera que modifique las magnitudes sin alterar la dirección ni el orden de magnitud de las tendencias.\nHay además un vacío de cobertura satelital entre 1988 y 1997, por limitaciones históricas de recepción de datos en Sudamérica. Recalculando las tasas sin el período previo al vacío, la variación es de 0,06 metros por año en el sector crítico, de modo que la tendencia es robusta a ese hueco."
   },
   {
     "objectID": "posts/linea-costa-saavedra/index.html#reproducibilidad",

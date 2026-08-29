@@ -11,7 +11,9 @@ categories:
   - Lago Budi
   - NCh1333
   - Saavedra
-toc: false
+toc: true
+toc-location: right
+toc-title: "Contenidos"
 format:
   html:
     page-layout: article
