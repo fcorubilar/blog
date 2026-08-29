@@ -106,11 +106,11 @@
 <table class="caption-top table">
 <caption>Tasas de cambio de la línea costera por sector, 1986–2026</caption>
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 27%">
+<col style="width: 15%">
+<col style="width: 21%">
+<col style="width: 12%">
+<col style="width: 22%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -189,18 +189,28 @@
 </div>
 <div class="callout-body-container callout-body">
 <p>El reporte ejecutivo completo, con metodología detallada, control de calidad y apéndice cartográfico, está disponible en el siguiente enlace:</p>
-<p>[Reporte retroceso de la línea costera en la comuna de Saavedra](11082026_REPORTE_LINEA_COSTERA_SAAVEDRA.pdf)</p>
-<p>[Apéndice de cartografías y gráficas](11082026_APENDICES_Reporte_LINEA_COSTERA.pdf)</p>
-<p>Los códigos de procesamiento y las capas geoespaciales los puedo compartir con una solicitud a mi correo electrónico fcorubilarrocha@gmail.com</p>
+<p><a href="11082026_REPORTE_LINEA_COSTERA_SAAVEDRA.pdf">Reporte retroceso de la línea costera en la comuna de Saavedra</a></p>
+<p><a href="11082026_APENDICES_Reporte_LINEA_COSTERA.pdf">Apéndice de cartografías y gráficas</a></p>
+<p>Los códigos de procesamiento y las capas geoespaciales los puedo compartir con una solicitud a mi correo electrónico que puedes consultar en el apartado web <a href="https://fcorubilarrocha.com/about"><strong>“Sobre Mi”</strong></a></p>
 </div>
 </div>
-</section>
-<section id="referencias" class="level2">
-<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Referencias
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Todo lo relacionado al procesamiento satelital, automatización mediante Python de geoprocesos ráster y dibujo de la línea costera, fue ejecutado según la literatura que he estudiado en mi carrera profesional. Revisa mis referencias a continuación:</p>
 <p>Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D. y Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. <em>Remote Sensing of Environment</em>, 202, 18–27. <a href="https://doi.org/10.1016/j.rse.2017.06.031" class="uri">https://doi.org/10.1016/j.rse.2017.06.031</a></p>
 <p>Himmelstoss, E. A., Henderson, R. E., Kratzmann, M. G. y Farris, A. S. (2018). <em>Digital Shoreline Analysis System (DSAS) version 5.0 user guide</em>. U.S. Geological Survey Open-File Report 2018-1179. <a href="https://doi.org/10.3133/ofr20181179" class="uri">https://doi.org/10.3133/ofr20181179</a></p>
 <p>Martínez, C., Winckler, P., Agredano, R., Esparza, C., Torres, I. y Contreras-López, M. (2022). Coastal erosion in sandy beaches along a tectonically active coast: The Chile study case. <em>Progress in Physical Geography: Earth and Environment</em>, 46(2), 250–271. <a href="https://doi.org/10.1177/03091333211057194" class="uri">https://doi.org/10.1177/03091333211057194</a></p>
 <p>Vos, K., Splinter, K. D., Harley, M. D., Simmons, J. A. y Turner, I. L. (2019). CoastSat: A Google Earth Engine-enabled Python toolkit to extract shorelines from publicly available satellite imagery. <em>Environmental Modelling &amp; Software</em>, 122, 104528. <a href="https://doi.org/10.1016/j.envsoft.2019.104528" class="uri">https://doi.org/10.1016/j.envsoft.2019.104528</a></p>
+</div>
+</div>
 
 
 </section>

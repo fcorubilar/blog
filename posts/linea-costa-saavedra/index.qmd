@@ -23,7 +23,7 @@ su fuerza y calmar las angustias y tribulaciones en su entorno amable y
 poderoso.
 
 |  |  |
-|:----------------------------------:|:----------------------------------:|
+|:--:|:--:|
 | ![](playamauleponiente.JPG){width="901"} | ![](playamauleponiente2.jpeg) |
 | *Playa Maule a media tarde, a 200 metros de Cerro Maule el estacionamiento público.* | *Playa Maule al atardecer, a pocos metros de la barra Sur.* |
 
@@ -32,7 +32,7 @@ cumple a cabalidad y de forma esplendorosa, si no que también la magia
 inunda con misterio los días nublados.
 
 |  |
-|:----------------------------------------------------------------------:|
+|:--:|
 | ![](cerromaule_playamaule2.jpeg) |
 | *Playa Maule un día nublado, a 500 metros del Cerro Maule abrazando en su extensión a cientos de turistas* |
 | ![](playamaule.jpeg) |
@@ -152,14 +152,12 @@ indicadores que necesitamos para relevar el riesgo y comenzar a
 apalancar recursos.
 
 | Sector               | Transectos |      Tasa media |       R² | Cambio acumulado |
-|:--------------|--------------:|--------------:|--------------:|--------------:|
+|:---------------------|-----------:|----------------:|---------:|-----------------:|
 | Norte de Cerro Maule |         53 |     −0,02 m/año |     0,00 |            ≈ 0 m |
 | **Playa Maule**      |         54 | **−4,36 m/año** | **0,81** |       **−174 m** |
 | Sur de Boca Budi     |         20 |     −2,14 m/año |     0,53 |            −86 m |
 
 : Tasas de cambio de la línea costera por sector, 1986–2026
-
-
 
 Para obtener los valores de avance y retroceso de la línea costera, se
 debe comparar el "cambio" entre el suelo y el agua respecto a una
@@ -230,13 +228,21 @@ retrocesos muy superiores a la tendencia media en pocos días.
 
 Dicho eso, la proyección de Playa Maule es la más confiable de las tres
 justamente porque su tendencia histórica es la más consistente. Un R²
-alto determina una pendiente bien acotada y, por tanto, un intervalo de proyección estrecho.
+alto determina una pendiente bien acotada y, por tanto, un intervalo de
+proyección estrecho.
 
 ## Limitaciones
 
-Estos resultados son preliminares **falta aplicar la corrección por nivel de marea**. Una línea de costa detectada con marea alta aparece más retraída que la misma costa con marea baja, y esa diferencia se suma como ruido a la serie. La corrección está en ejecución y se espera que modifique las magnitudes sin alterar la dirección ni el orden de magnitud de las tendencias.
+Estos resultados son preliminares **falta aplicar la corrección por
+nivel de marea**. Una línea de costa detectada con marea alta aparece
+más retraída que la misma costa con marea baja, y esa diferencia se suma
+como ruido a la serie. La corrección está en ejecución y se espera que
+modifique las magnitudes sin alterar la dirección ni el orden de
+magnitud de las tendencias.
 
-Hay además un vacío de cobertura satelital entre 1988 y 1997, por limitaciones históricas de recepción de datos en Sudamérica. Recalculando las tasas sin el período previo al vacío, la variación es
+Hay además un vacío de cobertura satelital entre 1988 y 1997, por
+limitaciones históricas de recepción de datos en Sudamérica.
+Recalculando las tasas sin el período previo al vacío, la variación es
 de 0,06 metros por año en el sector crítico, de modo que la tendencia es
 robusta a ese hueco.
 
@@ -256,18 +262,24 @@ metros a lo largo de todo el litoral comunal.
 El reporte ejecutivo completo, con metodología detallada, control de
 calidad y apéndice cartográfico, está disponible en el siguiente enlace:
 
-\[Reporte retroceso de la línea costera en la comuna de
-Saavedra\](11082026_REPORTE_LINEA_COSTERA_SAAVEDRA.pdf)
+[Reporte retroceso de la línea costera en la comuna de
+Saavedra](11082026_REPORTE_LINEA_COSTERA_SAAVEDRA.pdf)
 
-\[Apéndice de cartografías y
-gráficas\](11082026_APENDICES_Reporte_LINEA_COSTERA.pdf)
+[Apéndice de cartografías y
+gráficas](11082026_APENDICES_Reporte_LINEA_COSTERA.pdf)
 
 Los códigos de procesamiento y las capas geoespaciales los puedo
-compartir con una solicitud a mi correo electrónico
-fcorubilarrocha\@gmail.com
+compartir con una solicitud a mi correo electrónico que puedes consultar
+en el apartado web [**"Sobre Mi"**](https://fcorubilarrocha.com/about)
 :::
 
+::: callout-tip
 ## Referencias
+
+Todo lo relacionado al procesamiento satelital, automatización mediante
+Python de geoprocesos ráster y dibujo de la línea costera, fue ejecutado
+según la literatura que he estudiado en mi carrera profesional. Revisa
+mis referencias a continuación:
 
 Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D. y
 Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial
@@ -290,3 +302,4 @@ Vos, K., Splinter, K. D., Harley, M. D., Simmons, J. A. y Turner, I. L.
 extract shorelines from publicly available satellite imagery.
 *Environmental Modelling & Software*, 122, 104528.
 <https://doi.org/10.1016/j.envsoft.2019.104528>
+:::
