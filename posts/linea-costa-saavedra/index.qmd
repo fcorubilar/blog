@@ -25,7 +25,7 @@ poderoso.
 |  |  |
 |:----------------------------------:|:----------------------------------:|
 | ![](playamauleponiente.JPG){width="901"} | ![](playamauleponiente2.jpeg) |
-| *Playa Maule a media tarde, a 200 metros de Cerro Maule el estacionamiento público.* | *Playa Maule al atardecer, a pocos metros de la barra Sur.* |
+| *Playa Maule a media tarde, a 200 metros de Cerro Maule y el estacionamiento público.* | *Playa Maule al atardecer, a pocos metros de la barra Sur.* |
 
 Y su belleza no radica solo en el cliché del atardecer en el mar, que se
 cumple a cabalidad y de forma esplendorosa, sino que también la magia
@@ -152,11 +152,11 @@ análisis estadístico y de esta manera obtener los tan anhelados
 indicadores que necesitamos para relevar el riesgo y comenzar a
 apalancar recursos.
 
-| Sector               | Transectos |      Tasa media |       R² | Cambio acumulado |
-|:--------------|--------------:|--------------:|--------------:|--------------:|
-| Norte de Cerro Maule |         53 |     −0,02 m/año |     0,00 |            ≈ 0 m |
-| **Playa Maule**      |         54 | **−4,36 m/año** | **0,81** |       **−174 m** |
-| Sur de Boca Budi     |         20 |     −2,14 m/año |     0,53 |            −86 m |
+| Sector          | Transectos |      Tasa media |       R² | Cambio acumulado |
+|:----------------|-----------:|----------------:|---------:|-----------------:|
+| Barra Norte     |         53 |     −0,02 m/año |     0,00 |            ≈ 0 m |
+| **Playa Maule** |         54 | **−4,36 m/año** | **0,81** |       **−174 m** |
+| Sur Boca Budi   |         20 |     −2,14 m/año |     0,53 |            −86 m |
 
 : Tasas de cambio de la línea costera por sector, 1986–2026
 
