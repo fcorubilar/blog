@@ -160,14 +160,10 @@
 <section id="qué-dice-la-proyección-y-qué-no-dice" class="level2">
 <h2 class="anchored" data-anchor-id="qué-dice-la-proyección-y-qué-no-dice">Qué dice la proyección, y qué no dice</h2>
 <p>Extrapolando la tendencia medida hacia adelante, Playa Maule perdería otros 43,6 metros de playa en diez años y 87,1 en veinte. En el escenario desfavorable, que considera el límite superior del rango de retroceso, esas cifras suben a 62 y 123,9 metros.</p>
-<div id="fig-proy" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-proy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/LINEAS_COSTA_PROYECCION.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-proy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;1: Líneas de costa proyectadas a 2036 y 2046 sobre las nubes históricas de posición.
-</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/LINEAS_COSTA_PROYECCION.png" class="img-fluid figure-img"></p>
+<figcaption>Líneas de costa proyectadas a 2036 y 2046 sobre las nubes históricas de posición.</figcaption>
 </figure>
 </div>
 <p>Conviene ser claro y tener precaución sobre qué es esto. <strong>Es una extrapolación de la tendencia medida, no un pronóstico.</strong> No incorpora una posible aceleración por ascenso del nivel del mar, no considera cambios en el aporte de sedimento de las desembocaduras vecinas, y no captura el efecto de eventos extremos puntuales que pueden producir retrocesos muy superiores a la tendencia media en pocos días.</p>
@@ -175,8 +171,8 @@ Figura&nbsp;1: Líneas de costa proyectadas a 2036 y 2046 sobre las nubes histó
 </section>
 <section id="limitaciones" class="level2">
 <h2 class="anchored" data-anchor-id="limitaciones">Limitaciones</h2>
-<p>Los resultados son preliminares en un punto específico: <strong>falta aplicar la corrección por nivel de marea</strong>. Una línea de costa detectada con marea alta aparece más retraída que la misma costa con marea baja, y esa diferencia se suma como ruido a la serie. La corrección está en ejecución y se espera que modifique las magnitudes sin alterar la dirección ni el orden de magnitud de las tendencias.</p>
-<p>Hay además un vacío de cobertura satelital entre 1988 y 1997, por limitaciones históricas de recepción de datos en Sudamérica. Se verificó recalculando las tasas sin el período previo al vacío: la variación es de 0,06 metros por año en el sector crítico, de modo que la tendencia es robusta a ese hueco.</p>
+<p>Estos resultados son preliminares <strong>falta aplicar la corrección por nivel de marea</strong>. Una línea de costa detectada con marea alta aparece más retraída que la misma costa con marea baja, y esa diferencia se suma como ruido a la serie. La corrección está en ejecución y se espera que modifique las magnitudes sin alterar la dirección ni el orden de magnitud de las tendencias.</p>
+<p>Hay además un vacío de cobertura satelital entre 1988 y 1997, por limitaciones históricas de recepción de datos en Sudamérica. Recalculando las tasas sin el período previo al vacío, la variación es de 0,06 metros por año en el sector crítico, de modo que la tendencia es robusta a ese hueco.</p>
 </section>
 <section id="reproducibilidad" class="level2">
 <h2 class="anchored" data-anchor-id="reproducibilidad">Reproducibilidad</h2>

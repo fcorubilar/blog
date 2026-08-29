@@ -159,6 +159,8 @@ apalancar recursos.
 
 : Tasas de cambio de la línea costera por sector, 1986–2026
 
+
+
 Para obtener los valores de avance y retroceso de la línea costera, se
 debe comparar el "cambio" entre el suelo y el agua respecto a una
 referencia, que para este caso, resulta en una curva dibujada
@@ -217,7 +219,7 @@ escenario desfavorable, que considera el límite superior del rango de
 retroceso, esas cifras suben a 62 y 123,9 metros.
 
 ![Líneas de costa proyectadas a 2036 y 2046 sobre las nubes históricas
-de posición.](LINEAS_COSTA_PROYECCION.png){#fig-proy}
+de posición.](LINEAS_COSTA_PROYECCION.png)
 
 Conviene ser claro y tener precaución sobre qué es esto. **Es una
 extrapolación de la tendencia medida, no un pronóstico.** No incorpora
@@ -228,21 +230,13 @@ retrocesos muy superiores a la tendencia media en pocos días.
 
 Dicho eso, la proyección de Playa Maule es la más confiable de las tres
 justamente porque su tendencia histórica es la más consistente. Un R²
-alto determina una pendiente bien acotada y, por tanto, un intervalo de
-proyección estrecho.
+alto determina una pendiente bien acotada y, por tanto, un intervalo de proyección estrecho.
 
 ## Limitaciones
 
-Los resultados son preliminares en un punto específico: **falta aplicar
-la corrección por nivel de marea**. Una línea de costa detectada con
-marea alta aparece más retraída que la misma costa con marea baja, y esa
-diferencia se suma como ruido a la serie. La corrección está en
-ejecución y se espera que modifique las magnitudes sin alterar la
-dirección ni el orden de magnitud de las tendencias.
+Estos resultados son preliminares **falta aplicar la corrección por nivel de marea**. Una línea de costa detectada con marea alta aparece más retraída que la misma costa con marea baja, y esa diferencia se suma como ruido a la serie. La corrección está en ejecución y se espera que modifique las magnitudes sin alterar la dirección ni el orden de magnitud de las tendencias.
 
-Hay además un vacío de cobertura satelital entre 1988 y 1997, por
-limitaciones históricas de recepción de datos en Sudamérica. Se verificó
-recalculando las tasas sin el período previo al vacío: la variación es
+Hay además un vacío de cobertura satelital entre 1988 y 1997, por limitaciones históricas de recepción de datos en Sudamérica. Recalculando las tasas sin el período previo al vacío, la variación es
 de 0,06 metros por año en el sector crítico, de modo que la tendencia es
 robusta a ese hueco.
 
