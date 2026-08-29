@@ -104,7 +104,7 @@ varias transiciones que generan saltos intermitentes de luz blanca por
 las nubes y correcciones de imagen. Estas podrían generar reacciones no
 aptas para personas con epilepsia.**
 
-::: {style="max-width: 400px; margin: 0 auto;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
 {{< video https://www.youtube.com/shorts/wfCT49COxy0 title="40 años de variación de la línea costera en Saavedra y migración de la desembocadura Río Imperial" aspect-ratio="9x16" >}}
 :::
 
@@ -133,7 +133,7 @@ cartografías en 3 intervalos de tiempo que permiten visualizar las
 variaciones a simple observación.
 
 ![Líneas de costa extraídas para el periodo
-1986–1990.](lineas_costa_PLAYAMAULE_1986_1990.png){#fig-nubes}
+1986–1990.](lineas_costa_PLAYAMAULE_1986_1990.png)
 
 ![Líneas de costa extraídas para el periodo 1990-2010, junto a las
 líneas de costa acumuladas del periodo
