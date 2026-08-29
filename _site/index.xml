@@ -9,10 +9,10 @@
 <link>fcorubilarrocha@gmail.com/</link>
 <atom:link href="fcorubilarrocha@gmail.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Ingeniero Civil Ambiental | Magíster en Manejo de Recursos Naturales</description>
-<generator>quarto-1.9.37</generator>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Tue, 18 Aug 2026 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>Cuánta playa perdió Puerto Saavedra</title>
+  <title>Cuánta playa ha perdido Puerto Saavedra</title>
   <dc:creator>Francisco Rubilar Rocha</dc:creator>
   <link>fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/</link>
   <description><![CDATA[ 
@@ -60,54 +60,53 @@
 </tr>
 </tbody>
 </table>
-<p>En Puerto Saavedra la gente sabe que la playa se está yendo. Lo dicen mis vecinos que han vivido aquí cuarenta años y recuerdan hasta dónde llegaba la arena - “<em>…antes había un camino bajo el Cerro Maule de unos 80 metros don Francisco. Ese camino llegaba hasta Boca Budi y se conectaba hasta el Cerro La Mesa…“.</em> Bueno…, que la playa se esté yendo, significa que la <strong>línea costera está retrocediendo,</strong> y al menos a nivel local, ninguna institución había calculado la tasa de retroceso. La gente lo sabía, la playa, retrocedía, lo que no había era un indicador para la toma de decisiones.</p>
-<p>Esa ausencia no es un detalle académico. Sin una cifra, la erosión costera no entra en un instrumento de planificación, no justifica una obra de protección y no compite por presupuesto con problemas que sí están cuantificados. El diagnóstico territorial existía; el dato, no.</p>
-<p>Ahora existe: <strong>el sector de Playa Maule, frente al área poblada, retrocede 4,36 metros por año</strong>. Acumulados sobre cuatro décadas, son unos 174 metros de playa perdidos.</p>
+<p>En Puerto Saavedra la gente sabe que la playa se está yendo. Lo dicen mis vecinos que han vivido aquí cuarenta años y recuerdan hasta dónde llegaba la arena - “<em>…antes había un camino bajo el Cerro Maule de unos 80 metros don Francisco. Ese camino llegaba hasta Boca Budi y se conectaba hasta el Cerro La Mesa…” -</em></p>
+<p>Bueno…, que la playa se esté yendo, significa que la <strong>línea costera está retrocediendo,</strong> y al menos a nivel local, ninguna institución había calculado la tasa de retroceso. La gente lo sabía, la playa, retrocedía, lo que no había (me salió verso sin esfuerzo), era un indicador para la toma de decisiones.</p>
+<p>Esa ausencia no es un detalle académico. Sin una cifra, la erosión costera no entra en un instrumento de planificación, no justifica una obra de protección y no compite por presupuesto con problemas que sí están cuantificados. El diagnóstico territorial existe; el dato preciso, no.</p>
+<p>Ahora existe: <strong>el sector de Playa Maule, frente al área poblada en Avenida Miramar, retrocede 4,36 metros por año</strong>. Acumulados sobre cuatro décadas, son unos 174 metros de playa perdidos.</p>
 </section>
 <section id="por-qué-no-estaba-medido" class="level2">
 <h2 class="anchored" data-anchor-id="por-qué-no-estaba-medido">Por qué no estaba medido</h2>
-<p>En la revisión de antecedentes, encontré tres categorías de información sobre la costa de Saavedra, y ninguna cuantifica el retroceso. Hay estudios geomorfológicos regionales (<a href="https://scielo.conicyt.cl/pdf/rgeong/n58/art13.pdf">Peña-Cortés, 2014</a>) que describen la costa de La Araucanía sin entregar tasas de cambio. <a href="https://www.researchgate.net/publication/344242491_Interpretaciones_geologicas_de_remociones_en_masa_en_latitudes_medias_Caso_de_estudio_en_la_zona_de_Puerto_Saavedra_IX_Region">Ledezma (2020)</a> realizó, en el marco del proyecto FONDECYT 11180500, el primer estudio dedicado a interpretar geológicamente los procesos de remoción en masa en la zona de Puerto Saavedra, incluyendo el primer mapa de susceptibilidad para el sector, aunque acotado a procesos de ladera puntuales sin proyección hacia el retroceso de la línea de costa.</p>
-<p>Tampoco hay informes de organismos de emergencia que cuantifiquen el proceso: la intervención institucional se limita a alertas operativas por marejadas.</p>
-<p>En el propio Plan de Acción Comunal de Cambio Climático de Saavedra, reconocemos la erosión del borde costero como riesgo comunal, pero en su diseño no se pudo cuantificar las cadenas de impacto por falta de información local de base. Este levantamiento es precisamente esa base.</p>
+<p>En la revisión de antecedentes, encontré diversa información sobre la costa de Saavedra, y ninguna cuantifica el retroceso. Hay estudios geomorfológicos regionales (<a href="https://scielo.conicyt.cl/pdf/rgeong/n58/art13.pdf">Peña-Cortés, 2014</a>) que describen la costa de La Araucanía sin entregar tasas de cambio. <a href="https://www.researchgate.net/publication/344242491_Interpretaciones_geologicas_de_remociones_en_masa_en_latitudes_medias_Caso_de_estudio_en_la_zona_de_Puerto_Saavedra_IX_Region">Ledezma (2020)</a> realizó, en el marco del proyecto FONDECYT 11180500, el primer estudio dedicado a interpretar geológicamente los procesos de remoción en masa en la zona de Puerto Saavedra, incluyendo el primer mapa de susceptibilidad para el sector, aunque acotado a procesos de ladera puntuales sin proyección hacia el retroceso de la línea de costa.</p>
+<p>Tampoco hay informes de organismos de emergencia que cuantifiquen el proceso y la intervención institucional se limita a alertas operativas por marejadas.</p>
+<p>En el propio Plan de Acción Comunal de Cambio Climático de Saavedra, reconocemos la erosión del borde costero como riesgo comunal, pero en su diseño no se pudo cuantificar las cadenas de impacto por falta de información local de base. Este levantamiento viene a resolver esta brecha.</p>
 </section>
 <section id="cómo-se-mide-una-playa-desde-el-espacio" class="level2">
 <h2 class="anchored" data-anchor-id="cómo-se-mide-una-playa-desde-el-espacio">Cómo se mide una playa desde el espacio</h2>
-<p>Cuando “vemos” un paisaje, en realidad vemos la luz del sol que ese paisaje refleja. Nuestros ojos son sensores que “captan” la luz que les llega de rebote al chocar, literalmente, con todo lo que alcanza nuestra vista. Y esa luz le da texturas y colores a las cosas con las que interactúa. Luego, nuestro cerebro interpreta esa información de texturas y colores y nos permite discriminar en un paisaje lo que es un árbol, lo que es una piedra, lo que es agua y lo que es suelo. Los satélites hacen lo mismo, pero con unos SUPER OJOS, que les permiten “ver” el calor que emitimos todos los seres vivos e incluso el nivel de clorofila en un predio forestal. Y con esa supervista, los satélites, a kilómetros sobre el suelo pueden discriminar MUCHAS más cosas que nuestros ojos, en todo el espectro electromagnético (bandas electromagnéticas).</p>
+<p>Cuando “vemos” un paisaje, en realidad vemos la luz del sol que ese paisaje refleja. Nuestros ojos son sensores que “captan” la luz que les llega de rebote al chocar, literalmente, con todo lo que alcanza nuestra vista. Y esa luz le da texturas y colores a las cosas con las que interactúa. Luego, nuestro cerebro interpreta esa información de texturas y colores y nos permite discriminar en un paisaje lo que es un árbol, lo que es una piedra, lo que es agua y lo que es suelo. Los satélites hacen lo mismo, pero con unos SUPER OJOS, que les permiten “ver” el calor que emitimos todos los seres vivos e incluso el nivel de clorofila en un predio forestal. Y con esa supervista, los satélites, a kilómetros sobre el suelo pueden discriminar MUCHAS más cosas que nuestros ojos, en todo el espectro electromagnético (bandas electromagnéticas). El siguiente video es una de los diversos resultados y productos obtenidos del procesamiento satelital. <strong>Ojito, que hay varias transiciones que generan saltos intermitentes de luz blanca por las nubes y correcciones de imagen. Estas podrían generar reacciones no aptas para personas con epilepsia.</strong></p>
+<div style="max-width: 400px; margin: 0 auto;">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wfCT49COxy0" title="40 años de variación de la línea costera en Saavedra y migración de la desembocadura Río Imperial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
 <p>El agua y la arena reflejan la luz de forma muy distinta en el infrarrojo de onda corta: el agua absorbe casi toda esa energía y aparece oscura, mientras la arena seca, la refleja. Combinando esa banda con la del verde se obtiene un índice que separa ambas superficies con nitidez, <strong>y el límite entre las dos es la línea de costa.</strong></p>
-<p>Lo que hace interesante el ejercicio no es medir una vez, sino medir muchas. El archivo satelital abierto de la NASA y el Servicio Geológico de Estados Unidos cubre la costa chilena desde 1986 de forma continua, y Copernicus lo complementa desde 2015 con mayor resolución. Son cuatro décadas de fotografías del mismo lugar, tomadas cada dos semanas, disponibles sin costo.</p>
-<p>El levantamiento procesó <strong>2.899 imágenes de cinco misiones satelitales</strong>, de las que obtuve <strong>1.457 posiciones válidas de la línea de costa</strong>. Cada posición se mide con precisión subpíxel, es decir mejor que el tamaño nominal de la celda de 30 metros, mediante interpolación del índice espectral.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Sobre los transectos
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>El cambio no se mide sobre la línea completa sino sobre 127 transectos perpendiculares a la costa, espaciados cada 50 metros y con 600 metros de longitud. Para cada transecto se registra la distancia a la que cruza la línea de costa en cada fecha, y de esa serie de distancias contra tiempo sale la tasa de cambio por regresión lineal.</p>
-<p>Tres decisiones fueron relevantes. Se trazaron tres líneas base independientes en vez de una continua, excluyendo deliberadamente las dos desembocaduras, porque allí manda la dinámica estuarina y no la erosión oceánica. La longitud de 600 metros se fijó tras comprobar que una configuración más corta truncaba las mediciones justamente en el sector de mayor variación histórica. Y se verificó que el vértice de origen de cada transecto cayera en el continente, condición necesaria para que el signo de la tasa tenga sentido.</p>
-</div>
-</div>
-</div>
-<p><img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/lineas_costa_PLAYAMAULE_1986_1990.png" class="img-fluid"> <img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/LINEAS_COSTA_1990_2010.png" class="img-fluid"></p>
+<p>Lo que hace interesante el ejercicio no es medir una vez, sino medir muchas. El archivo satelital abierto de la NASA y el Servicio Geológico de Estados Unidos cubre la costa chilena desde 1986 de forma continua, y el proyecto Copernicus lo complementa desde 2015 con mayor resolución. <strong>Son cuatro décadas de fotografías del mismo lugar, tomadas cada dos semanas, disponibles sin costo.</strong></p>
+<p>El levantamiento procesó <strong>2.899 imágenes de cinco misiones satelitales</strong>, de las que obtuve <strong>1.457 posiciones válidas de la línea de costa</strong>. Cada posición se mide con precisión subpíxel, mejor que el tamaño nominal de la celda de 30 metros, mediante interpolación del índice espectral.</p>
+<p>Para cada una de esas 1457 líneas de costa válidas, extraje las nubes de puntos para cada una y luego las representé en las siguientes cartografías en 3 intervalos de tiempo que permiten visualizar las variaciones a simple observación.</p>
 <div id="fig-nubes" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-nubes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/LINEAS_COSTA_2010_2026.png" class="img-fluid figure-img">
+<img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/lineas_costa_PLAYAMAULE_1986_1990.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-nubes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;1: Líneas de costa extraídas para tres períodos. La nube roja corresponde a 1986–1990, la naranja a 1990–2010 y la azul a 2010–2026. El desplazamiento entre nubes es directamente medible.
+Figura&nbsp;1: Líneas de costa extraídas para el periodo 1986–1990.
 </figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/LINEAS_COSTA_1990_2010.png" class="img-fluid figure-img"></p>
+<figcaption>Líneas de costa extraídas para el periodo 1990-2010, junto a las líneas de costa acumuladas del periodo anterior.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/LINEAS_COSTA_2010_2026.png" class="img-fluid figure-img"></p>
+<figcaption>Líneas de costa extraídas para tres períodos. La nube roja corresponde a 1986–1990, la naranja a 1990–2010 y la azul a 2010–2026.</figcaption>
 </figure>
 </div>
 </section>
 <section id="el-litoral-no-se-comporta-igual-en-todas-partes" class="level2">
 <h2 class="anchored" data-anchor-id="el-litoral-no-se-comporta-igual-en-todas-partes">El litoral no se comporta igual en todas partes</h2>
-<p>Este es el resultado que no esperaba, y probablemente el más útil.</p>
+<p>No basta con diseñar estas lindas cartografías para representar los datos generados, si no que, para tomar las desiciones, es necesario un análisis estadístico y de esta manera obtener los tan anhelados indicadores que necesitamos para relevar el riesgo y comenzar a apalancar recursos.</p>
 <table class="caption-top table">
 <caption>Tasas de cambio de la línea costera por sector, 1986–2026</caption>
 <colgroup>
@@ -150,31 +149,17 @@ Figura&nbsp;1: Líneas de costa extraídas para tres períodos. La nube roja cor
 </tr>
 </tbody>
 </table>
+<p>Para obtener los valores de avance y retroceso de la línea costera, se debe comparar el “cambio” entre el suelo y el agua respecto a una referencia, que para este caso, resulta en una curva dibujada manualmente, con resolución subpíxel a partir de una imagen satelital despejada sin nubes y corregida. De los cientos de puntos que conforman esta curva, se desprenden los “transectos”, que serán rectas de 600 metros y exactamente perpendiculares a la costa, que están separadas por 50 metros cada una, tal como se muestra en la siguiente figura. Los valores de avance y retroceso entonces serán, las distancias que recorrerá la costa en cada transecto. De esta manera, los indicadores de variación de la línea costera se obtienen cada 50 metros y con eso, ya podemos interpretar y sectorizar. Es importante mencionar, que hay una zona en la que no dibujé transectos, que corresponde a la barra norte de la desembocadura. Esto se justifica, pues el fenómeno de migración de la desembocadura causa “ruido” en el análisis de la retroceso de la línea de costa en el sector poblado de playa Maule. En el siguiente post incorporo ese fenómeno, para quienes queden “curiosos” y “chúcaros” de esa información.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/transectos.png" class="img-fluid figure-img"></p>
+<figcaption>127 transectos exactamente perpendiculares (90º) al tramo de costa donde se encuentran, separados cada 50 metros, generados de forma automatizada a lo largo de la línea costera saavedrina.</figcaption>
+</figure>
+</div>
 <p>De los 127 transectos analizados, 74 presentan erosión significativa, 53 se mantienen sin tendencia neta y <strong>ninguno registra avance de la línea de costa</strong>.</p>
-<p>La diferencia entre el norte y el sur de Cerro Maule es tan marcada que conviene mirarla en detalle. En las dos figuras siguientes cada línea es la costa en un año distinto, con el color indicando el año y la costa rotada a la horizontal para poder comparar.</p>
-<div id="fig-maule" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-maule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/img/perfil-playa-maule.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-maule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;2: Playa Maule. Las líneas se ordenan cronológicamente: las azules, más antiguas, quedan sistemáticamente mar adentro de las rojas.
-</figcaption>
-</figure>
-</div>
-<div id="fig-norte" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-norte-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/img/perfil-norte-cerro-maule.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-norte-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;3: Norte de Cerro Maule. Las líneas se entrecruzan sin orden temporal: la costa oscila entre años pero regresa a posiciones equivalentes.
-</figcaption>
-</figure>
-</div>
-<p>En Playa Maule el orden cronológico es la firma de un desplazamiento sostenido, y explica el R² de 0,81. Al norte, en cambio, el R² de 0,00 no significa que no pase nada: significa que lo que pasa no tiene dirección. La costa se mueve, pero vuelve.</p>
-<p><strong>Cerro Maule opera como divisoria entre dos celdas litorales distintas.</strong> El promontorio rocoso interrumpe el transporte de sedimento a lo largo de la costa, y lo que ocurre a un lado no se transmite al otro. Para la gestión esto importa mucho: cualquier obra de protección diseñada para Playa Maule no puede suponer que el sector norte se comporta igual, y tampoco puede ignorar que intervenir un punto de la celda transfiere el problema al resto.</p>
-<p>Hay un segundo patrón dentro de Playa Maule. Los ocho transectos de mayor retroceso son consecutivos y están próximos a la desembocadura del río Imperial, con tasas de entre 5,3 y 5,9 metros por año. Esa concentración no es casual, y es el tema de un segundo análisis dedicado a la migración de la desembocadura que publicaré por separado.</p>
+<p>La diferencia entre el norte y el sur de Cerro Maule es tan marcada que conviene mirarla en detalle. En Playa Maule el orden cronológico es la firma de un desplazamiento sostenido, y explica el R² de 0,81. Al norte, en cambio, el R² de 0,00 no significa que no pase nada, <strong>significa que lo que pasa no tiene dirección. La costa se mueve, pero vuelve.</strong></p>
+<p><strong>Cerro Maule opera como divisoria entre dos celdas litorales distintas.</strong> El promontorio rocoso interrumpe el transporte de sedimento a lo largo de la costa, y lo que ocurre a un lado no se transmite al otro. Además, la desembocadura del Río Imperial produce transporte de sedimento de la barra sur a la barra norte. Para la gestión ambiental y del riesgo del desastre esto importa mucho. Cualquier obra de protección diseñada para Playa Maule no puede suponer que la barra norte se comporta igual, y tampoco puede ignorar que intervenir un punto de la celda podría transferir un incidente al resto.</p>
+<p>Hay un segundo patrón dentro de Playa Maule. Los ocho transectos de mayor retroceso son consecutivos y están próximos a la desembocadura del río Imperial (barra sur), con tasas de entre 5,3 y 5,9 metros por año. Esa concentración no es casual, <strong>y es el tema de un segundo análisis dedicado a la migración de la desembocadura que publicaré por separado</strong>.</p>
 </section>
 <section id="qué-dice-la-proyección-y-qué-no-dice" class="level2">
 <h2 class="anchored" data-anchor-id="qué-dice-la-proyección-y-qué-no-dice">Qué dice la proyección, y qué no dice</h2>
@@ -182,21 +167,15 @@ Figura&nbsp;3: Norte de Cerro Maule. Las líneas se entrecruzan sin orden tempor
 <div id="fig-proy" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-proy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/img/proyeccion-lineas-costa.png" class="img-fluid figure-img">
+<img src="fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/LINEAS_COSTA_PROYECCION.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-proy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;4: Líneas de costa proyectadas a 2036 y 2046 sobre las nubes históricas de posición.
+Figura&nbsp;2: Líneas de costa proyectadas a 2036 y 2046 sobre las nubes históricas de posición.
 </figcaption>
 </figure>
 </div>
-<p>Conviene ser claro sobre qué es esto. <strong>Es una extrapolación de la tendencia medida, no un pronóstico.</strong> No incorpora una posible aceleración por ascenso del nivel del mar, no considera cambios en el aporte de sedimento de las desembocaduras vecinas, y no captura el efecto de eventos extremos puntuales que pueden producir retrocesos muy superiores a la tendencia media en pocos días.</p>
-<p>Dicho eso, la proyección de Playa Maule es la más confiable de las tres justamente porque su tendencia histórica es la más consistente: un R² alto determina una pendiente bien acotada y, por tanto, un intervalo de proyección estrecho.</p>
-</section>
-<section id="lo-que-esto-cambia-institucionalmente" class="level2">
-<h2 class="anchored" data-anchor-id="lo-que-esto-cambia-institucionalmente">Lo que esto cambia institucionalmente</h2>
-<p>El PACCC comunal contempla en su Medida N°17 la ejecución de obras de drenaje y defensas costeras, con inicio programado para el período 2031–2035. Aplicando la tasa medida, el cálculo es incómodo: <strong>el retroceso acumulado alcanzaría unos 22 metros antes de que la medida comience y 39 metros antes de que termine</strong>. Es superficie de playa que se pierde de forma irrecuperable durante el período de espera.</p>
-<p>Ese cálculo es el argumento técnico para evaluar la reclasificación temporal de la medida desde mediano a corto plazo en el sector de Playa Maule. No es una opinión sobre prioridades presupuestarias: es lo que se deduce de multiplicar una tasa por un plazo.</p>
-<p>Hay además dos consideraciones que cualquier diseño de obra debe incorporar. La primera es la transferencia de erosión hacia sectores adyacentes, que ya mencioné. La segunda es que existe una solicitud de Espacio Costero Marino de Pueblos Originarios en tramitación sobre el sector, de 2.138 hectáreas, lo que tiene implicancias sobre los procedimientos de consulta aplicables.</p>
+<p>Conviene ser claro y tener precaución sobre qué es esto. <strong>Es una extrapolación de la tendencia medida, no un pronóstico.</strong> No incorpora una posible aceleración por ascenso del nivel del mar, no considera cambios en el aporte de sedimento de las desembocaduras vecinas, y no captura el efecto de eventos extremos puntuales que pueden producir retrocesos muy superiores a la tendencia media en pocos días.</p>
+<p>Dicho eso, la proyección de Playa Maule es la más confiable de las tres justamente porque su tendencia histórica es la más consistente. Un R² alto determina una pendiente bien acotada y, por tanto, un intervalo de proyección estrecho.</p>
 </section>
 <section id="limitaciones" class="level2">
 <h2 class="anchored" data-anchor-id="limitaciones">Limitaciones</h2>
@@ -205,8 +184,7 @@ Figura&nbsp;4: Líneas de costa proyectadas a 2036 y 2046 sobre las nubes histó
 </section>
 <section id="reproducibilidad" class="level2">
 <h2 class="anchored" data-anchor-id="reproducibilidad">Reproducibilidad</h2>
-<p>Todo el levantamiento se ejecutó con datos de acceso abierto y herramientas gratuitas. Eso tiene una consecuencia práctica que va más allá de este resultado: <strong>el municipio puede actualizar la serie cada año sin depender de consultoría externa</strong>, con resolución espacial de 50 metros a lo largo de todo el litoral comunal.</p>
-<p>Pasar de no tener ninguna cifra a tener una línea base replicable y actualizable es, probablemente, el resultado más duradero de este trabajo. El número puede discutirse y va a refinarse; el instrumento queda.</p>
+<p>Todo el levantamiento se ejecutó con datos de acceso abierto y herramientas gratuitas. Eso tiene una consecuencia práctica que va más allá de este resultado, <strong>el municipio puede actualizar la serie cada año sin depender de consultoría externa</strong>, con resolución espacial de 50 metros a lo largo de todo el litoral comunal.</p>
 <hr>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -218,7 +196,10 @@ Figura&nbsp;4: Líneas de costa proyectadas a 2036 y 2046 sobre las nubes histó
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>El reporte ejecutivo completo, con metodología detallada, control de calidad y apéndice cartográfico, está disponible en la Unidad de Medio Ambiente de la Ilustre Municipalidad de Saavedra. Los códigos de procesamiento y las capas geoespaciales se comparten a solicitud para verificación y replicación.</p>
+<p>El reporte ejecutivo completo, con metodología detallada, control de calidad y apéndice cartográfico, está disponible en el siguiente enlace:</p>
+<p>[Reporte retroceso de la línea costera en la comuna de Saavedra](11082026_REPORTE_LINEA_COSTERA_SAAVEDRA.pdf)</p>
+<p>[Apéndice de cartografías y gráficas](11082026_APENDICES_Reporte_LINEA_COSTERA.pdf)</p>
+<p>Los códigos de procesamiento y las capas geoespaciales los puedo compartir con una solicitud a mi correo electrónico fcorubilarrocha@gmail.com</p>
 </div>
 </div>
 </section>
