@@ -97,12 +97,13 @@ satélites hacen lo mismo, pero con unos SUPER OJOS, que les permiten
 "ver" el calor que emiten los objetos de la superficie e incluso el
 nivel de clorofila en un predio forestal. Y con esa supervista, los
 satélites, a kilómetros sobre el suelo pueden discriminar MUCHAS más
-cosas que nuestros ojos, en todo el espectro electromagnético (bandas
-electromagnéticas). El siguiente video es una de los diversos resultados
-y productos obtenidos del procesamiento satelital. **Ojito, que hay
-varias transiciones que generan saltos intermitentes de luz blanca por
-las nubes y correcciones de imagen. Estas podrían generar reacciones no
-aptas para personas con epilepsia.**
+cosas que nuestros ojos, en todo el espectro de colores visibles
+invisibles a la retina humana (llamadas bandas electromagnéticas). El
+siguiente video es una de los diversos resultados y productos obtenidos
+del procesamiento satelital. **Ojito, que hay varias transiciones que
+generan saltos intermitentes de luz blanca por las nubes y correcciones
+de imagen. Estas podrían generar reacciones no aptas para personas con
+epilepsia.**
 
 ::: {style="max-width: 800px; margin: 0 auto;"}
 {{< video https://www.youtube.com/shorts/wfCT49COxy0 title="40 años de variación de la línea costera en Saavedra y migración de la desembocadura Río Imperial" aspect-ratio="9x16" >}}
@@ -175,9 +176,9 @@ podemos interpretar y sectorizar. Es importante mencionar, que hay una
 zona en la que no dibujé transectos, que corresponde a la barra norte de
 la desembocadura. Esto se justifica, pues el fenómeno de migración de la
 desembocadura causa "ruido" en el análisis del retroceso de la línea de
-costa en el sector poblado de playa Maule. En el siguiente post
+costa en el sector poblado de playa Maule. **En el siguiente post
 incorporo ese fenómeno, para quienes queden "curiosos" y "chúcaros" de
-esa información.
+esa información.**
 
 ![127 transectos exactamente perpendiculares (90º) al tramo de costa
 donde se encuentran, separados cada 50 metros, generados de forma
@@ -212,7 +213,7 @@ separado**.
 
 ## Capítulo V - Proyecciones
 
-Extrapolando la tendencia medida hacia adelante, Playa Maule perdería
+Extrapolando la tendencia medida hacia el futuro, Playa Maule perdería
 otros 43,6 metros de playa en diez años y 87,1 en veinte. En el
 escenario desfavorable, que considera el límite superior del rango de
 retroceso, esas cifras suben a 62 y 123,9 metros.

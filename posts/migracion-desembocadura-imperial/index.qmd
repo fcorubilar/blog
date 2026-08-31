@@ -1,0 +1,342 @@
+---
+title: "La desembocadura que se mueve"
+subtitle: "Mil ciento cincuenta y tres metros hacia el sur en cuarenta años"
+description: |
+  La boca del río Imperial migra hacia el sur desde el maremoto de 1960. Ahora
+  sabemos a qué velocidad, cuándo cambió de ritmo y por qué dejó de cerrarse.
+date: 2026-08-29
+author: "Francisco Rubilar Rocha"
+categories: [teledetección, borde costero, río Imperial, Saavedra, geomorfología]
+image: img/lamina-migracion-boca.png
+image-alt: "Cartografía de la migración de la desembocadura del río Imperial entre 1986 y 2026"
+lang: es
+toc: true
+toc-title: "Contenidos"
+execute:
+  echo: false
+  warning: false
+  message: false
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+#| label: setup
+library(dplyr)
+library(gt)
+
+tabla <- function(d, nota = NULL) {
+  g <- d |>
+    gt() |>
+    tab_options(
+      table.font.size = px(14),
+      table.width = pct(100),
+      column_labels.font.weight = "bold",
+      data_row.padding = px(6),
+      table.border.top.style = "none"
+    ) |>
+    opt_row_striping()
+  if (!is.null(nota)) g <- g |> tab_source_note(source_note = nota)
+  g
+}
+```
+
+En [el análisis del retroceso costero](#) que publiqué hace unas semanas
+hay una omisión deliberada. Al trazar las líneas base para medir la
+erosión, excluí los dos sectores donde el litoral se interrumpe: la
+desembocadura del río Imperial al norte y la salida del Lago Budi al
+sur. La razón es que ahí no manda el oleaje sino la dinámica estuarina,
+y mezclar ambos procesos habría contaminado el cálculo de tasas.
+
+Esa exclusión dejó una pregunta abierta, y era justamente la más
+interesante: **¿cuánto se ha movido la boca del Imperial?**
+
+La respuesta es 1.153 metros hacia el sur entre 1986 y 2026. Pero lo que
+importa no es tanto la cifra como lo que aparece al mirar la serie
+completa: la migración cambió de ritmo dos veces, se propagó de norte a
+sur con siete años de desfase, y la boca —que llevaba décadas
+estrechándose— dejó de cerrarse en 2016.
+
+## Una costa que todavía responde a 1960
+
+Antes del terremoto de mayo de 1960, la desembocadura del Imperial
+estaba junto al Cerro Maule, en el extremo sur de la barrera. El sismo
+produjo subsidencia del orden de 1,2 metros en la zona y el maremoto
+abrió una brecha en la barrera unos siete kilómetros al norte. El río
+pasó a salir por ahí.
+
+Desde entonces la boca migra hacia el sur, empujada por la deriva
+litoral dominante, recuperando lentamente su trazado anterior. Lo que
+estamos midiendo, entonces, no es un proceso estacionario: es la
+relajación de una perturbación que tiene sesenta y seis años y todavía
+no termina.
+
+La propia Ordenanza Ambiental Municipal deja registro de esto cuando
+define la Laguna Imperial como el tramo entre la desembocadura actual y
+el sector Villa Maule, "donde se encontraba la desembocadura antigua".
+El dato está en la norma comunal desde antes de que existiera ninguna
+medición.
+
+## Cómo se mide algo que se desplaza de lado
+
+Medir erosión costera es relativamente directo: trazas transectos
+perpendiculares a la playa y registras a qué distancia cruza el agua.
+Pero la desembocadura no se mueve perpendicular a la costa sino **a lo
+largo** de ella, y para eso los transectos no sirven.
+
+La solución fue cambiar de sistema de coordenadas. En vez de medir
+distancias perpendiculares, construí una coordenada curvilínea que corre
+a lo largo de la barrera litoral: un número que indica cuántos metros
+hacia el sur está cada punto, medido sobre un eje con azimut de 158°. En
+ese sistema, la boca es simplemente un intervalo, y basta registrar
+dónde empieza y dónde termina.
+
+Para cada una de las 515 fechas útiles se midieron tres valores: la
+posición del hombro norte de la abertura, la del hombro sur, y el ancho
+entre ambos. La clasificación agua-tierra se hizo con el mismo índice
+espectral del análisis costero, umbralizado automáticamente escena por
+escena.
+
+::: {.callout-note collapse="true"}
+## Sobre la fuente de datos
+
+Se procesaron 627 escenas Landsat 5, 7, 8 y 9 entre 1986 y 2026, de las
+que sobrevivieron 515 con medición válida. No se incorporó Sentinel-2
+pese a su mejor resolución: el objetivo requiere homogeneidad a lo largo
+de cuatro décadas, y sumar un sensor de 10 metros solo en el tramo final
+habría introducido un salto artificial justamente en la variable de
+ancho, que es la más sensible.
+
+Hay un vacío de cobertura entre 1988 y 1997 por limitaciones históricas
+de recepción de datos en Sudamérica. A diferencia del análisis de
+erosión, acá sí condiciona el resultado del tramo inicial, que por eso
+se reporta como rango.
+:::
+
+## Lo que muestra la serie
+
+```{r}
+#| label: tbl-componentes
+#| tbl-cap: "Tasas de desplazamiento por componente de la abertura, 1986–2026. Valores positivos indican movimiento hacia el sur."
+tibble::tribble(
+  ~Componente,            ~`Tendencia`,   ~`Theil-Sen`,   ~`R²`,  ~`Desplazamiento`,
+  "Hombro norte",         "+26,0 m/año",  "+22,9 m/año",  "0,84", "+1.276 m",
+  "Centro de la boca",    "+21,3 m/año",  "+19,4 m/año",  "0,86", "+1.153 m",
+  "Hombro sur",           "+17,1 m/año",  "+15,3 m/año",  "0,76", "+1.025 m",
+  "Ancho de la abertura", "−5,1 m/año",   "−4,3 m/año",   "0,33", "−136 m"
+) |>
+  tabla("515 fechas útiles. Todos los p-valores son inferiores a 1 × 10⁻²⁹.")
+```
+
+Los dos hombros no avanzan igual. El norte recorre 1.276 metros y el sur
+1.025: esa diferencia de 251 metros **es** el estrechamiento de la boca.
+
+La explicación es física y bastante limpia. La deriva litoral transporta
+arena de norte a sur y la deposita en la ribera norte de la abertura,
+que por eso avanza rápido. En el flanco sur, en cambio, la corriente del
+río erosiona. Mientras el aporte de arena supere a la erosión, la boca
+se traslada y se estrecha al mismo tiempo. Es el comportamiento clásico
+descrito para bocas mareales en costas con deriva dominante.
+
+![Contexto de la barrera, trayectoria del centro de la boca con la
+geometría anual de la abertura, y series de control. El tramo punteado
+corresponde al vacío de cobertura satelital entre 1988 y
+1997.](img/lamina-migracion-boca.png){#fig-lamina}
+
+## Dos cambios de ritmo, con siete años de diferencia
+
+```{r}
+#| label: tbl-regimenes
+#| tbl-cap: "Cambios de régimen detectados por ajuste de dos rectas."
+tibble::tribble(
+  ~Variable,              ~Quiebre,        ~`Tasa previa`,  ~`Tasa posterior`,
+  "Hombro norte",         "mayo 2006",     "+47,0 m/año",   "+22,9 m/año",
+  "Centro de la boca",    "octubre 2006",  "+42,4 m/año",   "+18,6 m/año",
+  "Hombro sur",           "mayo 2013",     "+29,4 m/año",   "+21,7 m/año",
+  "Ancho de la abertura", "agosto 2016",   "−4,6 m/año",    "+4,4 m/año"
+) |>
+  tabla()
+```
+
+Dos cosas saltan de esta tabla.
+
+La primera es que **la desaceleración se propagó de norte a sur**. El
+hombro norte cambió de régimen en 2006 y el sur recién en 2013. Siete
+años de desfase en una abertura de menos de doscientos metros de ancho.
+No tengo una explicación verificada para eso, y me parece el resultado
+más interesante de todo el análisis.
+
+La segunda es que el ancho **invierte su signo**. Hasta 2016 la boca se
+cerraba a razón de 4,6 metros por año; después se abre a 4,4. El mínimo
+histórico fue de 123 metros en 2021, y en 2026 la abertura mide 172.
+
+Eso contradice la proyección del único estudio previo sobre el sector,
+elaborado en 2017, que con datos hasta 2013 anticipaba un cierre
+progresivo. No es un error de ese estudio: es que el fenómeno cambió
+justo después de que dejara de observarlo.
+
+Sobre por qué se reabrió tengo tres hipótesis y ninguna verificada.
+Puede ser la migración misma, que llevó la boca a un tramo donde la
+barrera es más angosta y resiste peor. Puede ser equilibrio hidráulico:
+un canal mareal tiende a una sección estable dada por su prisma de
+marea, y por debajo de ella la corriente se acelera hasta recuperarla. O
+pueden ser eventos discretos de apertura por temporal o crecida que
+simplemente no se cerraron.
+
+::: callout-warning
+## Precaución con esta variable
+
+El ancho es el resultado menos sólido del análisis: R² de 0,33 y una
+magnitud del orden de cuatro píxeles Landsat. El cambio de signo es
+robusto; la magnitud de cada tasa no lo es.
+:::
+
+## ¿Hasta dónde puede llegar?
+
+Medí en gabinete la posición del afloramiento rocoso de Puntilla Maule,
+que marca el límite sur del tramo por donde la boca puede migrar. Quedan
+entre 2.515 y 2.542 metros desde la posición actual del hombro sur.
+
+```{r}
+#| label: tbl-escenarios
+#| tbl-cap: "Tiempo de recorrido hasta Puntilla Maule según la tasa aplicada al hombro sur."
+tibble::tribble(
+  ~`Tasa aplicada`,                 ~`m/año`, ~`Años restantes`, ~`Llegada`,
+  "Theil-Sen, serie completa",      "+15,3",  "164",             "≈ 2190",
+  "Tendencia secular",              "+17,1",  "147",             "≈ 2173",
+  "Régimen posterior a 2013",       "+21,7",  "116",             "≈ 2142",
+  "Período reciente 2020–2026",     "+36,2",  "70",              "≈ 2096"
+) |>
+  tabla("Todos los escenarios suponen tasa constante.")
+```
+
+La dispersión —de setenta a ciento sesenta y cinco años— es el
+resultado, no un defecto del cálculo. Depende enteramente de qué tasa
+uno considere representativa del futuro, y la serie no permite
+decidirlo: hubo un cambio de régimen en 2013 y el sexenio reciente casi
+duplica el promedio de cuatro décadas. Dar una cifra única sería
+precisión falsa.
+
+::: callout-important
+## Esto no es una fecha de cierre
+
+Antes de 1960 la boca estaba precisamente junto al afloramiento rocoso.
+La roca es entonces compatible con una desembocadura estable, no una
+barrera que detenga la migración. Lo que se estima es el tiempo de
+recorrido hasta esa posición histórica, no un evento.
+:::
+
+Y para la gestión, el indicador relevante tampoco es la llegada al
+promontorio. La onda erosiva que acompaña a la boca alcanza mucho antes
+cada tramo del frente urbano de Puerto Saavedra.
+
+## La conexión con la erosión de Playa Maule
+
+Esto último merece explicitarse, porque es donde los dos análisis se
+juntan.
+
+En el levantamiento de retroceso costero, los ocho transectos de peor
+comportamiento de Playa Maule resultaron ser consecutivos y estar todos
+próximos a la desembocadura, con tasas de entre 5,3 y 5,9 metros por año
+frente a un promedio sectorial de 4,36. En su momento anoté esa
+concentración sin poder explicarla.
+
+Con la serie de la boca la explicación se sostiene: **la migración de la
+desembocadura y la erosión del frente urbano son el mismo proceso**. La
+boca interrumpe el transporte de sedimento a lo largo de la costa, y el
+tramo inmediatamente al sur queda desabastecido. A medida que la boca
+avanza, ese déficit se desplaza con ella.
+
+Si es así, el sector de mayor erosión no es un lugar fijo del litoral
+sino un punto móvil que se traslada hacia el sur unos veinte metros por
+año. Confirmarlo requiere un análisis cruzado que todavía no hago:
+comparar la tasa de retroceso costero contra la coordenada a lo largo de
+la barrera, para toda la serie.
+
+## Un hallazgo colateral: la barrera pierde superficie
+
+Midiendo la superficie de agua dentro de un corredor fijo de 1.600
+metros de ancho a lo largo de la barrera, aparece una tendencia clara:
+**0,70 hectáreas de superficie emergida perdidas por año** entre 2000 y
+2024, unas 16 hectáreas en total.
+
+Este resultado casi no lo publico. La clasificación agua-tierra usa un
+umbral calculado automáticamente en cada época, y esos umbrales variaron
+entre 0,145 y 0,206 sin orden temporal. Como un umbral más bajo
+clasifica más píxeles como agua, la pérdida podía ser un artefacto de
+método antes que un proceso real.
+
+Repetí entonces el cálculo completo con tres umbrales fijos adicionales.
+La sensibilidad medida es de 1,1 hectáreas por cada centésima de umbral,
+de modo que el rango completo explica como máximo 6,9 hectáreas. La
+tendencia temporal, en cambio, queda prácticamente idéntica en los
+cuatro modos: entre 0,67 y 0,73 hectáreas por año. La señal duplica al
+artefacto posible y no depende del modo de clasificación. Es real.
+
+## Limitaciones
+
+Como en el análisis costero, los resultados son preliminares hasta
+aplicar la **corrección por nivel de marea**, que se espera afecte las
+magnitudes sin alterar la dirección ni el orden de magnitud.
+
+Hay además una discrepancia que quedó abierta. El estudio de 2017 y esta
+serie coinciden muy bien en la forma del proceso —correlación de 0,95
+sobre los cinco años comunes— pero difieren en escala: mi desplazamiento
+medido es un 34 % mayor que el suyo. Como ese informe no documentó su
+eje de referencia, no hay manera de determinar si la diferencia viene de
+una orientación distinta del eje o de una definición distinta del punto
+central. Lo dejo anotado sin resolver.
+
+## Reproducibilidad
+
+Igual que el análisis costero, este trabajo se hizo íntegramente con
+datos de acceso abierto y herramientas gratuitas. El eje de referencia,
+el origen de coordenadas y el azimut de proyección están documentados en
+el reporte, que es precisamente la condición que impide usar el
+antecedente de 2017 como línea base.
+
+Cualquiera con el mismo eje puede reproducir estas cifras, y el
+municipio puede actualizar la serie cada año sin depender de nadie.
+
+------------------------------------------------------------------------
+
+::: callout-tip
+## Datos y documentación
+
+El reporte ejecutivo completo, con metodología, catálogo de errores de
+procesamiento y apéndice cartográfico, está disponible en la Unidad de
+Medio Ambiente de la Ilustre Municipalidad de Saavedra. Los códigos y
+las capas geoespaciales se comparten a solicitud.
+:::
+
+## Referencias
+
+Bruun, P. (1978). *Stability of Tidal Inlets: Theory and Engineering*.
+Ámsterdam: Elsevier.
+
+Escoffier, F. F. (1940). The stability of tidal inlets. *Shore and
+Beach*, 8(4), 114–115.
+
+FitzGerald, D. M. (1988). Shoreline erosional-depositional processes
+associated with tidal inlets. En D. G. Aubrey y L. Weishar (eds.),
+*Hydrodynamics and Sediment Dynamics of Tidal Inlets*, 186–225. Nueva
+York: Springer.
+
+Heimhuber, V., Vos, K., Fu, W. y Glamore, W. (2021). InletTracker: An
+open-source Python toolkit for historic and near real-time monitoring of
+coastal inlets from Landsat and Sentinel-2. *Geomorphology*, 389,
+107830. <https://doi.org/10.1016/j.geomorph.2021.107830>
+
+Otsu, N. (1979). A threshold selection method from gray-level
+histograms. *IEEE Transactions on Systems, Man, and Cybernetics*, 9(1),
+62–66.
+
+Plafker, G. y Savage, J. C. (1970). Mechanism of the Chilean earthquakes
+of May 21 and 22, 1960. *Geological Society of America Bulletin*, 81(4),
+1001–1030.
+
+Xu, H. (2006). Modification of normalised difference water index (NDWI)
+to enhance open water features in remotely sensed imagery.
+*International Journal of Remote Sensing*, 27(14), 3025–3033.
+<https://doi.org/10.1080/01431160600589179>
