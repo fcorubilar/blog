@@ -56,6 +56,62 @@
     "text": "Datos y reproducibilidad\nLas coordenadas de las estaciones están en sistema WGS84 (EPSG:32718). La geometría espacial fue capturada con GPS de mano, con precisión submétrica para fines cartográficos (no topográficos).\nSi trabajas en gestión de cuerpos de agua y te interesa replicar este enfoque metodológico en otra cuenca, puedes escribirme a fcorubilarrocha@gmail.com."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Publicaciones y proyectos",
+    "section": "",
+    "text": "Cuánta playa ha perdido Puerto Saavedra\n\n\nCuatro décadas de línea de costa medidas con datos satelitales\n\n\n\nteledetección\n\nborde costero\n\nSaavedra\n\ngestión del riesgo\n\n\n\nEl frente costero del sector de Playa Maule en Puerto Saavedra retrocede 4,36 metros al año. No se había medido antes con esta exactitud. En este artículo te muestro el proceso de obtención de imágenes satelitales, su geoprocesamiento, vectorización y análisis estadístico. Todas las operaciones basadas en la evidencia más actualizada, se ejecutaron en software de código abierto. Un proceso gratis y replicable para mejorar la gestión ambiental y de riesgo del desastre a nivel local.\n\n\n\n\n\nAug 18, 2026\n\n\nFrancisco Rubilar Rocha\n\n\n\n\n\n\n\n\n\n\n\n\nRepositorio interactivo de la calidad de agua del Lago Budi\n\n\nProyecto Vigías del Budi - Monitoreo Participativo de la Calidad del Agua\n\n\n\nSIG\n\nCalidad de Agua\n\nLago Budi\n\nNCh1333\n\nSaavedra\n\n\n\nRevisa todos los resultados que he levantando en relación a la calidad del agua del Lago Budi. Encontrarás explicaciones sobre las presiones ambientales que le afectan, la forma en que hago mi trabajo y un visualizador SIG con mediciones de calidad de agua superficial y de lecho en el Lago Budi, contrastadas con los requisitos de la Norma Chilena NCh1333. Todo esto, en el contexto del Proyecto ID 27855 financiado por el FNDR 8% Municipalidades 2025, del Gobierno Regional de La Araucanía\n\n\n\n\n\nMay 2, 2026\n\n\nFrancisco Rubilar Rocha\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre mí",
+    "section": "",
+    "text": "Ingeniero Civil Ambiental y Magíster en Manejo de Recursos Naturales, formado en la Universidad de La Frontera. Trabajo desde Saavedra, La Araucanía.\nLlevo más de diez años implementando gestión ambiental en Chile, desempeñándome en calidad de aire, sistemas de información geográfica, gestión de residuos, huella de carbono y participación comunitaria en conflictos socioambientales. He trabajado para municipios, gobiernos regionales, ministerios, fundaciones y universidades. Hoy soy Encargado de Medioambiente de la Municipalidad de Saavedra."
+  },
+  {
+    "objectID": "about.html#hola-soy-francisco",
+    "href": "about.html#hola-soy-francisco",
+    "title": "Sobre mí",
+    "section": "",
+    "text": "Ingeniero Civil Ambiental y Magíster en Manejo de Recursos Naturales, formado en la Universidad de La Frontera. Trabajo desde Saavedra, La Araucanía.\nLlevo más de diez años implementando gestión ambiental en Chile, desempeñándome en calidad de aire, sistemas de información geográfica, gestión de residuos, huella de carbono y participación comunitaria en conflictos socioambientales. He trabajado para municipios, gobiernos regionales, ministerios, fundaciones y universidades. Hoy soy Encargado de Medioambiente de la Municipalidad de Saavedra."
+  },
+  {
+    "objectID": "about.html#lo-que-hago",
+    "href": "about.html#lo-que-hago",
+    "title": "Sobre mí",
+    "section": "Lo que hago",
+    "text": "Lo que hago\nCuando alguien me pregunta a qué me dedico exactamente, respondo que ayudo a que las decisiones ambientales y productivas se tomen con datos, no con intuiciones. Ello implica levantar y dirigir líneas base, la aplicación de sensores remotos y SIG, la modelación de contaminantes, el análisis de ciclo de vida de productos y servicios, el diseño y ejecución de talleres de participación ciudadana con sensibilidad socioambiental, y la elaboración de proyectos que se ejecuten cosas concretas.\nA lo largo de mi trayectoria he liderado o participado en proyectos que han movilizado financiamiento público y privado para iniciativas ambientales en La Araucanía y otras regiones del país."
+  },
+  {
+    "objectID": "about.html#áreas-de-especialidad",
+    "href": "about.html#áreas-de-especialidad",
+    "title": "Sobre mí",
+    "section": "Áreas de especialidad",
+    "text": "Áreas de especialidad\n\nCalidad de aire y modelación atmosférica. Diplomado de la Universidad de Santiago de Chile. Monitoreo móvil de material particulado en diversas comunas; líder de la Red Comunitaria de Calidad de Aire - Respiracción.\nAnálisis de Ciclo de Vida y Huella de Carbono. Diplomado de la Universidad Andrés Bello. Proyecto Climat AmSud sobre Huella de Carbono Hospitalaria; Medición y reporte de emisiones en Huella Chile.\nSistemas de Información Geográfica. ArcGIS, QGIS, Python y R aplicados a diagnóstico ambiental territorial.\nDrones y sensores remotos. Diplomado en Universidad de La Fronteera.Uso de Phantom 4 Pro como herramienta de campo; uso de equipamiento de medición multiparamétrica para calidad de agua.\nGestión de residuos sólidos. Evaluador acreditado de ChileValora para perfiles de servicios de gestión de residuos. He evaluado a más de 250 recicladores en 17 ciudades de Chile.\nParticipación ciudadana ambiental. Más de 4.000 encuestas territoriales aplicadas en La Araucanía y experiencia directa en programas PRAS (Quintero-Puchuncaví, Huasco, Coronel). Mediación institucional en conflictos socioambientales.\nEducación ambiental y docencia universitaria. Docente de asignaturas de pregrado y postgrado en Universidad de La Frontera, Universidad de Los Lagos y Universidad Católica de Temuco."
+  },
+  {
+    "objectID": "about.html#algunas-cosas-en-las-que-he-trabajado",
+    "href": "about.html#algunas-cosas-en-las-que-he-trabajado",
+    "title": "Sobre mí",
+    "section": "Algunas cosas en las que he trabajado",
+    "text": "Algunas cosas en las que he trabajado\n\nPolítica de Sustentabilidad UFRO (2022–2024). Operativización del Acuerdo de Producción Limpia institucional, medición de huella de carbono, líneas base de biodiversidad. Representante institucional ante la Red de Campus Sustentable.\nPRAS Quintero-Puchuncaví, Huasco y Coronel (2019–2022). Diseño y relatoría de jornadas sobre calidad de aire, gestión de residuos, cambio climático y gobernanza ambiental.\nEstudio regional de PTAS y vertederos (2017–2018). Talleres territoriales en 80 instalaciones de las 32 comunas de La Araucanía.\nCaracterización de residuos sólidos según NCh3321:2013 en Temuco, Cunco, Gorbea y Saavedra.\nInvestigación en huella de carbono hospitalaria del Hospital Hernán Henríquez Aravena de Temuco, con publicación reciente en Journal of Cardiothoracic and Vascular Anesthesia (2025)."
+  },
+  {
+    "objectID": "about.html#por-qué-este-blog",
+    "href": "about.html#por-qué-este-blog",
+    "title": "Sobre mí",
+    "section": "Por qué este blog",
+    "text": "Por qué este blog\nDecidí abrir este espacio porque hay un cuerpo importante de conocimiento aplicado que se queda en informes técnicos y nunca llega a quien podría usarlo. Este blog es para la comunidad curiosa de las ciencias ambientales, para otros encargados ambientales municipales, profesionales que postulan a fondos públicos, comunidades que enfrentan conflictos ambientales, estudiantes que arman su tesis. Aquí escribo sobre lo que aprendo en terreno, con datos reales y sin jerga innecesaria.\nSi trabajas en gestión ambiental municipal, te interesa la calidad de aire en Chile, o estás buscando referencias prácticas para postular proyectos a fondos públicos y privados, probablemente algo de lo que publico acá te sirva."
+  },
+  {
+    "objectID": "about.html#conversemos",
+    "href": "about.html#conversemos",
+    "title": "Sobre mí",
+    "section": "Conversemos",
+    "text": "Conversemos\nEstoy disponible para colaboraciones, charlas, asesorías técnicas y consultas profesionales. La forma más rápida de contactarme es por correo: fcorubilarrocha@gmail.com."
+  },
+  {
     "objectID": "posts/linea-costa-saavedra/index.html",
     "href": "posts/linea-costa-saavedra/index.html",
     "title": "Cuánta playa ha perdido Puerto Saavedra",
@@ -110,138 +166,5 @@
     "title": "Cuánta playa ha perdido Puerto Saavedra",
     "section": "Reproducibilidad",
     "text": "Reproducibilidad\nTodo el levantamiento se ejecutó con datos de acceso abierto y herramientas gratuitas. Eso tiene una consecuencia práctica que va más allá de este resultado, el municipio puede actualizar la serie cada año sin depender de consultoría externa, con resolución espacial de 50 metros a lo largo de todo el litoral comunal.\n\n\n\n\n\n\n\nTipDatos y documentación\n\n\n\nEl reporte ejecutivo completo, con metodología detallada, control de calidad y apéndice cartográfico, está disponible en el siguiente enlace:\nReporte retroceso de la línea costera en la comuna de Saavedra\nApéndice de cartografías y gráficas\nLos códigos de procesamiento y las capas geoespaciales los puedo compartir con una solicitud a mi correo electrónico fcorubilarrocha@gmail.com\n\n\n\n\n\n\n\n\nTipReferencias\n\n\n\nTodo lo relacionado al procesamiento satelital, automatización mediante Python de geoprocesos ráster y dibujo de la línea costera, fue ejecutado según la literatura que he estudiado en mi carrera profesional. Revisa mis referencias a continuación:\nGorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D. y Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sensing of Environment, 202, 18–27. https://doi.org/10.1016/j.rse.2017.06.031\nHimmelstoss, E. A., Henderson, R. E., Kratzmann, M. G. y Farris, A. S. (2018). Digital Shoreline Analysis System (DSAS) version 5.0 user guide. U.S. Geological Survey Open-File Report 2018-1179. https://doi.org/10.3133/ofr20181179\nMartínez, C., Winckler, P., Agredano, R., Esparza, C., Torres, I. y Contreras-López, M. (2022). Coastal erosion in sandy beaches along a tectonically active coast: The Chile study case. Progress in Physical Geography: Earth and Environment, 46(2), 250–271. https://doi.org/10.1177/03091333211057194\nVos, K., Splinter, K. D., Harley, M. D., Simmons, J. A. y Turner, I. L. (2019). CoastSat: A Google Earth Engine-enabled Python toolkit to extract shorelines from publicly available satellite imagery. Environmental Modelling & Software, 122, 104528. https://doi.org/10.1016/j.envsoft.2019.104528"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre mí",
-    "section": "",
-    "text": "Ingeniero Civil Ambiental y Magíster en Manejo de Recursos Naturales, formado en la Universidad de La Frontera. Trabajo desde Saavedra, La Araucanía.\nLlevo más de diez años implementando gestión ambiental en Chile, desempeñándome en calidad de aire, sistemas de información geográfica, gestión de residuos, huella de carbono y participación comunitaria en conflictos socioambientales. He trabajado para municipios, gobiernos regionales, ministerios, fundaciones y universidades. Hoy soy Encargado de Medioambiente de la Municipalidad de Saavedra."
-  },
-  {
-    "objectID": "about.html#hola-soy-francisco",
-    "href": "about.html#hola-soy-francisco",
-    "title": "Sobre mí",
-    "section": "",
-    "text": "Ingeniero Civil Ambiental y Magíster en Manejo de Recursos Naturales, formado en la Universidad de La Frontera. Trabajo desde Saavedra, La Araucanía.\nLlevo más de diez años implementando gestión ambiental en Chile, desempeñándome en calidad de aire, sistemas de información geográfica, gestión de residuos, huella de carbono y participación comunitaria en conflictos socioambientales. He trabajado para municipios, gobiernos regionales, ministerios, fundaciones y universidades. Hoy soy Encargado de Medioambiente de la Municipalidad de Saavedra."
-  },
-  {
-    "objectID": "about.html#lo-que-hago",
-    "href": "about.html#lo-que-hago",
-    "title": "Sobre mí",
-    "section": "Lo que hago",
-    "text": "Lo que hago\nCuando alguien me pregunta a qué me dedico exactamente, respondo que ayudo a que las decisiones ambientales y productivas se tomen con datos, no con intuiciones. Ello implica levantar y dirigir líneas base, la aplicación de sensores remotos y SIG, la modelación de contaminantes, el análisis de ciclo de vida de productos y servicios, el diseño y ejecución de talleres de participación ciudadana con sensibilidad socioambiental, y la elaboración de proyectos que se ejecuten cosas concretas.\nA lo largo de mi trayectoria he liderado o participado en proyectos que han movilizado financiamiento público y privado para iniciativas ambientales en La Araucanía y otras regiones del país."
-  },
-  {
-    "objectID": "about.html#áreas-de-especialidad",
-    "href": "about.html#áreas-de-especialidad",
-    "title": "Sobre mí",
-    "section": "Áreas de especialidad",
-    "text": "Áreas de especialidad\n\nCalidad de aire y modelación atmosférica. Diplomado de la Universidad de Santiago de Chile. Monitoreo móvil de material particulado en diversas comunas; líder de la Red Comunitaria de Calidad de Aire - Respiracción.\nAnálisis de Ciclo de Vida y Huella de Carbono. Diplomado de la Universidad Andrés Bello. Proyecto Climat AmSud sobre Huella de Carbono Hospitalaria; Medición y reporte de emisiones en Huella Chile.\nSistemas de Información Geográfica. ArcGIS, QGIS, Python y R aplicados a diagnóstico ambiental territorial.\nDrones y sensores remotos. Diplomado en Universidad de La Fronteera.Uso de Phantom 4 Pro como herramienta de campo; uso de equipamiento de medición multiparamétrica para calidad de agua.\nGestión de residuos sólidos. Evaluador acreditado de ChileValora para perfiles de servicios de gestión de residuos. He evaluado a más de 250 recicladores en 17 ciudades de Chile.\nParticipación ciudadana ambiental. Más de 4.000 encuestas territoriales aplicadas en La Araucanía y experiencia directa en programas PRAS (Quintero-Puchuncaví, Huasco, Coronel). Mediación institucional en conflictos socioambientales.\nEducación ambiental y docencia universitaria. Docente de asignaturas de pregrado y postgrado en Universidad de La Frontera, Universidad de Los Lagos y Universidad Católica de Temuco."
-  },
-  {
-    "objectID": "about.html#algunas-cosas-en-las-que-he-trabajado",
-    "href": "about.html#algunas-cosas-en-las-que-he-trabajado",
-    "title": "Sobre mí",
-    "section": "Algunas cosas en las que he trabajado",
-    "text": "Algunas cosas en las que he trabajado\n\nPolítica de Sustentabilidad UFRO (2022–2024). Operativización del Acuerdo de Producción Limpia institucional, medición de huella de carbono, líneas base de biodiversidad. Representante institucional ante la Red de Campus Sustentable.\nPRAS Quintero-Puchuncaví, Huasco y Coronel (2019–2022). Diseño y relatoría de jornadas sobre calidad de aire, gestión de residuos, cambio climático y gobernanza ambiental.\nEstudio regional de PTAS y vertederos (2017–2018). Talleres territoriales en 80 instalaciones de las 32 comunas de La Araucanía.\nCaracterización de residuos sólidos según NCh3321:2013 en Temuco, Cunco, Gorbea y Saavedra.\nInvestigación en huella de carbono hospitalaria del Hospital Hernán Henríquez Aravena de Temuco, con publicación reciente en Journal of Cardiothoracic and Vascular Anesthesia (2025)."
-  },
-  {
-    "objectID": "about.html#por-qué-este-blog",
-    "href": "about.html#por-qué-este-blog",
-    "title": "Sobre mí",
-    "section": "Por qué este blog",
-    "text": "Por qué este blog\nDecidí abrir este espacio porque hay un cuerpo importante de conocimiento aplicado que se queda en informes técnicos y nunca llega a quien podría usarlo. Este blog es para la comunidad curiosa de las ciencias ambientales, para otros encargados ambientales municipales, profesionales que postulan a fondos públicos, comunidades que enfrentan conflictos ambientales, estudiantes que arman su tesis. Aquí escribo sobre lo que aprendo en terreno, con datos reales y sin jerga innecesaria.\nSi trabajas en gestión ambiental municipal, te interesa la calidad de aire en Chile, o estás buscando referencias prácticas para postular proyectos a fondos públicos y privados, probablemente algo de lo que publico acá te sirva."
-  },
-  {
-    "objectID": "about.html#conversemos",
-    "href": "about.html#conversemos",
-    "title": "Sobre mí",
-    "section": "Conversemos",
-    "text": "Conversemos\nEstoy disponible para colaboraciones, charlas, asesorías técnicas y consultas profesionales. La forma más rápida de contactarme es por correo: fcorubilarrocha@gmail.com."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Publicaciones y proyectos",
-    "section": "",
-    "text": "La desembocadura que se mueve\n\n\nMil ciento cincuenta y tres metros hacia el sur en cuarenta años\n\n\n\nteledetección\n\nborde costero\n\nrío Imperial\n\nSaavedra\n\ngeomorfología\n\n\n\nLa boca del río Imperial migra hacia el sur desde el maremoto de 1960. Ahora sabemos a qué velocidad, cuándo cambió de ritmo y por qué dejó de cerrarse.\n\n\n\n\n\nAug 29, 2026\n\n\nFrancisco Rubilar Rocha\n\n\n\n\n\n\n\n\n\n\n\n\nCuánta playa ha perdido Puerto Saavedra\n\n\nCuatro décadas de línea de costa medidas con datos satelitales\n\n\n\nteledetección\n\nborde costero\n\nSaavedra\n\ngestión del riesgo\n\n\n\nEl frente costero del sector de Playa Maule en Puerto Saavedra retrocede 4,36 metros al año. No se había medido antes con esta exactitud. En este artículo te muestro el proceso de obtención de imágenes satelitales, su geoprocesamiento, vectorización y análisis estadístico. Todas las operaciones basadas en la evidencia más actualizada, se ejecutaron en software de código abierto. Un proceso gratis y replicable para mejorar la gestión ambiental y de riesgo del desastre a nivel local.\n\n\n\n\n\nAug 18, 2026\n\n\nFrancisco Rubilar Rocha\n\n\n\n\n\n\n\n\n\n\n\n\nRepositorio interactivo de la calidad de agua del Lago Budi\n\n\nProyecto Vigías del Budi - Monitoreo Participativo de la Calidad del Agua\n\n\n\nSIG\n\nCalidad de Agua\n\nLago Budi\n\nNCh1333\n\nSaavedra\n\n\n\nRevisa todos los resultados que he levantando en relación a la calidad del agua del Lago Budi. Encontrarás explicaciones sobre las presiones ambientales que le afectan, la forma en que hago mi trabajo y un visualizador SIG con mediciones de calidad de agua superficial y de lecho en el Lago Budi, contrastadas con los requisitos de la Norma Chilena NCh1333. Todo esto, en el contexto del Proyecto ID 27855 financiado por el FNDR 8% Municipalidades 2025, del Gobierno Regional de La Araucanía\n\n\n\n\n\nMay 2, 2026\n\n\nFrancisco Rubilar Rocha\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html",
-    "href": "posts/migracion-desembocadura-imperial/index.html",
-    "title": "La desembocadura que se mueve",
-    "section": "",
-    "text": "En el análisis del retroceso costero que publiqué hace unas semanas hay una omisión deliberada. Al trazar las líneas base para medir la erosión, excluí los dos sectores donde el litoral se interrumpe: la desembocadura del río Imperial al norte y la salida del Lago Budi al sur. La razón es que ahí no manda el oleaje sino la dinámica estuarina, y mezclar ambos procesos habría contaminado el cálculo de tasas.\nEsa exclusión dejó una pregunta abierta, y era justamente la más interesante: ¿cuánto se ha movido la boca del Imperial?\nLa respuesta es 1.153 metros hacia el sur entre 1986 y 2026. Pero lo que importa no es tanto la cifra como lo que aparece al mirar la serie completa: la migración cambió de ritmo dos veces, se propagó de norte a sur con siete años de desfase, y la boca —que llevaba décadas estrechándose— dejó de cerrarse en 2016."
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html#una-costa-que-todavía-responde-a-1960",
-    "href": "posts/migracion-desembocadura-imperial/index.html#una-costa-que-todavía-responde-a-1960",
-    "title": "La desembocadura que se mueve",
-    "section": "Una costa que todavía responde a 1960",
-    "text": "Una costa que todavía responde a 1960\nAntes del terremoto de mayo de 1960, la desembocadura del Imperial estaba junto al Cerro Maule, en el extremo sur de la barrera. El sismo produjo subsidencia del orden de 1,2 metros en la zona y el maremoto abrió una brecha en la barrera unos siete kilómetros al norte. El río pasó a salir por ahí.\nDesde entonces la boca migra hacia el sur, empujada por la deriva litoral dominante, recuperando lentamente su trazado anterior. Lo que estamos midiendo, entonces, no es un proceso estacionario: es la relajación de una perturbación que tiene sesenta y seis años y todavía no termina.\nLa propia Ordenanza Ambiental Municipal deja registro de esto cuando define la Laguna Imperial como el tramo entre la desembocadura actual y el sector Villa Maule, “donde se encontraba la desembocadura antigua”. El dato está en la norma comunal desde antes de que existiera ninguna medición."
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html#cómo-se-mide-algo-que-se-desplaza-de-lado",
-    "href": "posts/migracion-desembocadura-imperial/index.html#cómo-se-mide-algo-que-se-desplaza-de-lado",
-    "title": "La desembocadura que se mueve",
-    "section": "Cómo se mide algo que se desplaza de lado",
-    "text": "Cómo se mide algo que se desplaza de lado\nMedir erosión costera es relativamente directo: trazas transectos perpendiculares a la playa y registras a qué distancia cruza el agua. Pero la desembocadura no se mueve perpendicular a la costa sino a lo largo de ella, y para eso los transectos no sirven.\nLa solución fue cambiar de sistema de coordenadas. En vez de medir distancias perpendiculares, construí una coordenada curvilínea que corre a lo largo de la barrera litoral: un número que indica cuántos metros hacia el sur está cada punto, medido sobre un eje con azimut de 158°. En ese sistema, la boca es simplemente un intervalo, y basta registrar dónde empieza y dónde termina.\nPara cada una de las 515 fechas útiles se midieron tres valores: la posición del hombro norte de la abertura, la del hombro sur, y el ancho entre ambos. La clasificación agua-tierra se hizo con el mismo índice espectral del análisis costero, umbralizado automáticamente escena por escena.\n\n\n\n\n\n\nNotaSobre la fuente de datos\n\n\n\n\n\nSe procesaron 627 escenas Landsat 5, 7, 8 y 9 entre 1986 y 2026, de las que sobrevivieron 515 con medición válida. No se incorporó Sentinel-2 pese a su mejor resolución: el objetivo requiere homogeneidad a lo largo de cuatro décadas, y sumar un sensor de 10 metros solo en el tramo final habría introducido un salto artificial justamente en la variable de ancho, que es la más sensible.\nHay un vacío de cobertura entre 1988 y 1997 por limitaciones históricas de recepción de datos en Sudamérica. A diferencia del análisis de erosión, acá sí condiciona el resultado del tramo inicial, que por eso se reporta como rango."
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html#lo-que-muestra-la-serie",
-    "href": "posts/migracion-desembocadura-imperial/index.html#lo-que-muestra-la-serie",
-    "title": "La desembocadura que se mueve",
-    "section": "Lo que muestra la serie",
-    "text": "Lo que muestra la serie\n\n\n\n\nTabla 1: Tasas de desplazamiento por componente de la abertura, 1986–2026. Valores positivos indican movimiento hacia el sur.\n\n\n\n\n\n\n\n\n\nComponente\nTendencia\nTheil-Sen\nR²\nDesplazamiento\n\n\n\n\nHombro norte\n+26,0 m/año\n+22,9 m/año\n0,84\n+1.276 m\n\n\nCentro de la boca\n+21,3 m/año\n+19,4 m/año\n0,86\n+1.153 m\n\n\nHombro sur\n+17,1 m/año\n+15,3 m/año\n0,76\n+1.025 m\n\n\nAncho de la abertura\n−5,1 m/año\n−4,3 m/año\n0,33\n−136 m\n\n\n\n515 fechas útiles. Todos los p-valores son inferiores a 1 × 10⁻²⁹.\n\n\n\n\n\n\n\n\n\n\n\nLos dos hombros no avanzan igual. El norte recorre 1.276 metros y el sur 1.025: esa diferencia de 251 metros es el estrechamiento de la boca.\nLa explicación es física y bastante limpia. La deriva litoral transporta arena de norte a sur y la deposita en la ribera norte de la abertura, que por eso avanza rápido. En el flanco sur, en cambio, la corriente del río erosiona. Mientras el aporte de arena supere a la erosión, la boca se traslada y se estrecha al mismo tiempo. Es el comportamiento clásico descrito para bocas mareales en costas con deriva dominante.\n\n\n\n\n\n\nFigura 1: Contexto de la barrera, trayectoria del centro de la boca con la geometría anual de la abertura, y series de control. El tramo punteado corresponde al vacío de cobertura satelital entre 1988 y 1997."
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html#dos-cambios-de-ritmo-con-siete-años-de-diferencia",
-    "href": "posts/migracion-desembocadura-imperial/index.html#dos-cambios-de-ritmo-con-siete-años-de-diferencia",
-    "title": "La desembocadura que se mueve",
-    "section": "Dos cambios de ritmo, con siete años de diferencia",
-    "text": "Dos cambios de ritmo, con siete años de diferencia\n\n\n\n\nTabla 2: Cambios de régimen detectados por ajuste de dos rectas.\n\n\n\n\n\n\n\n\n\nVariable\nQuiebre\nTasa previa\nTasa posterior\n\n\n\n\nHombro norte\nmayo 2006\n+47,0 m/año\n+22,9 m/año\n\n\nCentro de la boca\noctubre 2006\n+42,4 m/año\n+18,6 m/año\n\n\nHombro sur\nmayo 2013\n+29,4 m/año\n+21,7 m/año\n\n\nAncho de la abertura\nagosto 2016\n−4,6 m/año\n+4,4 m/año\n\n\n\n\n\n\n\n\n\n\nDos cosas saltan de esta tabla.\nLa primera es que la desaceleración se propagó de norte a sur. El hombro norte cambió de régimen en 2006 y el sur recién en 2013. Siete años de desfase en una abertura de menos de doscientos metros de ancho. No tengo una explicación verificada para eso, y me parece el resultado más interesante de todo el análisis.\nLa segunda es que el ancho invierte su signo. Hasta 2016 la boca se cerraba a razón de 4,6 metros por año; después se abre a 4,4. El mínimo histórico fue de 123 metros en 2021, y en 2026 la abertura mide 172.\nEso contradice la proyección del único estudio previo sobre el sector, elaborado en 2017, que con datos hasta 2013 anticipaba un cierre progresivo. No es un error de ese estudio: es que el fenómeno cambió justo después de que dejara de observarlo.\nSobre por qué se reabrió tengo tres hipótesis y ninguna verificada. Puede ser la migración misma, que llevó la boca a un tramo donde la barrera es más angosta y resiste peor. Puede ser equilibrio hidráulico: un canal mareal tiende a una sección estable dada por su prisma de marea, y por debajo de ella la corriente se acelera hasta recuperarla. O pueden ser eventos discretos de apertura por temporal o crecida que simplemente no se cerraron.\n\n\n\n\n\n\nAdvertenciaPrecaución con esta variable\n\n\n\nEl ancho es el resultado menos sólido del análisis: R² de 0,33 y una magnitud del orden de cuatro píxeles Landsat. El cambio de signo es robusto; la magnitud de cada tasa no lo es."
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html#hasta-dónde-puede-llegar",
-    "href": "posts/migracion-desembocadura-imperial/index.html#hasta-dónde-puede-llegar",
-    "title": "La desembocadura que se mueve",
-    "section": "¿Hasta dónde puede llegar?",
-    "text": "¿Hasta dónde puede llegar?\nMedí en gabinete la posición del afloramiento rocoso de Puntilla Maule, que marca el límite sur del tramo por donde la boca puede migrar. Quedan entre 2.515 y 2.542 metros desde la posición actual del hombro sur.\n\n\n\n\nTabla 3: Tiempo de recorrido hasta Puntilla Maule según la tasa aplicada al hombro sur.\n\n\n\n\n\n\n\n\n\nTasa aplicada\nm/año\nAños restantes\nLlegada\n\n\n\n\nTheil-Sen, serie completa\n+15,3\n164\n≈ 2190\n\n\nTendencia secular\n+17,1\n147\n≈ 2173\n\n\nRégimen posterior a 2013\n+21,7\n116\n≈ 2142\n\n\nPeríodo reciente 2020–2026\n+36,2\n70\n≈ 2096\n\n\n\nTodos los escenarios suponen tasa constante.\n\n\n\n\n\n\n\n\n\n\n\nLa dispersión —de setenta a ciento sesenta y cinco años— es el resultado, no un defecto del cálculo. Depende enteramente de qué tasa uno considere representativa del futuro, y la serie no permite decidirlo: hubo un cambio de régimen en 2013 y el sexenio reciente casi duplica el promedio de cuatro décadas. Dar una cifra única sería precisión falsa.\n\n\n\n\n\n\nImportanteEsto no es una fecha de cierre\n\n\n\nAntes de 1960 la boca estaba precisamente junto al afloramiento rocoso. La roca es entonces compatible con una desembocadura estable, no una barrera que detenga la migración. Lo que se estima es el tiempo de recorrido hasta esa posición histórica, no un evento.\n\n\nY para la gestión, el indicador relevante tampoco es la llegada al promontorio. La onda erosiva que acompaña a la boca alcanza mucho antes cada tramo del frente urbano de Puerto Saavedra."
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html#la-conexión-con-la-erosión-de-playa-maule",
-    "href": "posts/migracion-desembocadura-imperial/index.html#la-conexión-con-la-erosión-de-playa-maule",
-    "title": "La desembocadura que se mueve",
-    "section": "La conexión con la erosión de Playa Maule",
-    "text": "La conexión con la erosión de Playa Maule\nEsto último merece explicitarse, porque es donde los dos análisis se juntan.\nEn el levantamiento de retroceso costero, los ocho transectos de peor comportamiento de Playa Maule resultaron ser consecutivos y estar todos próximos a la desembocadura, con tasas de entre 5,3 y 5,9 metros por año frente a un promedio sectorial de 4,36. En su momento anoté esa concentración sin poder explicarla.\nCon la serie de la boca la explicación se sostiene: la migración de la desembocadura y la erosión del frente urbano son el mismo proceso. La boca interrumpe el transporte de sedimento a lo largo de la costa, y el tramo inmediatamente al sur queda desabastecido. A medida que la boca avanza, ese déficit se desplaza con ella.\nSi es así, el sector de mayor erosión no es un lugar fijo del litoral sino un punto móvil que se traslada hacia el sur unos veinte metros por año. Confirmarlo requiere un análisis cruzado que todavía no hago: comparar la tasa de retroceso costero contra la coordenada a lo largo de la barrera, para toda la serie."
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html#un-hallazgo-colateral-la-barrera-pierde-superficie",
-    "href": "posts/migracion-desembocadura-imperial/index.html#un-hallazgo-colateral-la-barrera-pierde-superficie",
-    "title": "La desembocadura que se mueve",
-    "section": "Un hallazgo colateral: la barrera pierde superficie",
-    "text": "Un hallazgo colateral: la barrera pierde superficie\nMidiendo la superficie de agua dentro de un corredor fijo de 1.600 metros de ancho a lo largo de la barrera, aparece una tendencia clara: 0,70 hectáreas de superficie emergida perdidas por año entre 2000 y 2024, unas 16 hectáreas en total.\nEste resultado casi no lo publico. La clasificación agua-tierra usa un umbral calculado automáticamente en cada época, y esos umbrales variaron entre 0,145 y 0,206 sin orden temporal. Como un umbral más bajo clasifica más píxeles como agua, la pérdida podía ser un artefacto de método antes que un proceso real.\nRepetí entonces el cálculo completo con tres umbrales fijos adicionales. La sensibilidad medida es de 1,1 hectáreas por cada centésima de umbral, de modo que el rango completo explica como máximo 6,9 hectáreas. La tendencia temporal, en cambio, queda prácticamente idéntica en los cuatro modos: entre 0,67 y 0,73 hectáreas por año. La señal duplica al artefacto posible y no depende del modo de clasificación. Es real."
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html#limitaciones",
-    "href": "posts/migracion-desembocadura-imperial/index.html#limitaciones",
-    "title": "La desembocadura que se mueve",
-    "section": "Limitaciones",
-    "text": "Limitaciones\nComo en el análisis costero, los resultados son preliminares hasta aplicar la corrección por nivel de marea, que se espera afecte las magnitudes sin alterar la dirección ni el orden de magnitud.\nHay además una discrepancia que quedó abierta. El estudio de 2017 y esta serie coinciden muy bien en la forma del proceso —correlación de 0,95 sobre los cinco años comunes— pero difieren en escala: mi desplazamiento medido es un 34 % mayor que el suyo. Como ese informe no documentó su eje de referencia, no hay manera de determinar si la diferencia viene de una orientación distinta del eje o de una definición distinta del punto central. Lo dejo anotado sin resolver."
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html#reproducibilidad",
-    "href": "posts/migracion-desembocadura-imperial/index.html#reproducibilidad",
-    "title": "La desembocadura que se mueve",
-    "section": "Reproducibilidad",
-    "text": "Reproducibilidad\nIgual que el análisis costero, este trabajo se hizo íntegramente con datos de acceso abierto y herramientas gratuitas. El eje de referencia, el origen de coordenadas y el azimut de proyección están documentados en el reporte, que es precisamente la condición que impide usar el antecedente de 2017 como línea base.\nCualquiera con el mismo eje puede reproducir estas cifras, y el municipio puede actualizar la serie cada año sin depender de nadie.\n\n\n\n\n\n\n\nTipDatos y documentación\n\n\n\nEl reporte ejecutivo completo, con metodología, catálogo de errores de procesamiento y apéndice cartográfico, está disponible en la Unidad de Medio Ambiente de la Ilustre Municipalidad de Saavedra. Los códigos y las capas geoespaciales se comparten a solicitud."
-  },
-  {
-    "objectID": "posts/migracion-desembocadura-imperial/index.html#referencias",
-    "href": "posts/migracion-desembocadura-imperial/index.html#referencias",
-    "title": "La desembocadura que se mueve",
-    "section": "Referencias",
-    "text": "Referencias\nBruun, P. (1978). Stability of Tidal Inlets: Theory and Engineering. Ámsterdam: Elsevier.\nEscoffier, F. F. (1940). The stability of tidal inlets. Shore and Beach, 8(4), 114–115.\nFitzGerald, D. M. (1988). Shoreline erosional-depositional processes associated with tidal inlets. En D. G. Aubrey y L. Weishar (eds.), Hydrodynamics and Sediment Dynamics of Tidal Inlets, 186–225. Nueva York: Springer.\nHeimhuber, V., Vos, K., Fu, W. y Glamore, W. (2021). InletTracker: An open-source Python toolkit for historic and near real-time monitoring of coastal inlets from Landsat and Sentinel-2. Geomorphology, 389, 107830. https://doi.org/10.1016/j.geomorph.2021.107830\nOtsu, N. (1979). A threshold selection method from gray-level histograms. IEEE Transactions on Systems, Man, and Cybernetics, 9(1), 62–66.\nPlafker, G. y Savage, J. C. (1970). Mechanism of the Chilean earthquakes of May 21 and 22, 1960. Geological Society of America Bulletin, 81(4), 1001–1030.\nXu, H. (2006). Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery. International Journal of Remote Sensing, 27(14), 3025–3033. https://doi.org/10.1080/01431160600589179"
   }
 ]

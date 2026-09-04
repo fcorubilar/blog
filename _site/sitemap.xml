@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>fcorubilarrocha@gmail.com/posts/sig-lago-budi/index.html</loc>
+    <loc>https://fcorubilarrocha.com/posts/sig-lago-budi/index.html</loc>
     <lastmod>2026-09-04T03:47:07.740Z</lastmod>
   </url>
   <url>
-    <loc>fcorubilarrocha@gmail.com/posts/linea-costa-saavedra/index.html</loc>
-    <lastmod>2026-09-04T03:47:07.726Z</lastmod>
-  </url>
-  <url>
-    <loc>fcorubilarrocha@gmail.com/about.html</loc>
-    <lastmod>2026-09-04T03:47:07.670Z</lastmod>
-  </url>
-  <url>
-    <loc>fcorubilarrocha@gmail.com/index.html</loc>
+    <loc>https://fcorubilarrocha.com/index.html</loc>
     <lastmod>2026-05-10T21:44:26.116Z</lastmod>
   </url>
   <url>
-    <loc>fcorubilarrocha@gmail.com/posts/migracion-desembocadura-imperial/index.html</loc>
-    <lastmod>2026-09-04T03:47:07.739Z</lastmod>
+    <loc>https://fcorubilarrocha.com/about.html</loc>
+    <lastmod>2026-09-04T03:47:07.670Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fcorubilarrocha.com/posts/linea-costa-saavedra/index.html</loc>
+    <lastmod>2026-09-04T03:47:07.726Z</lastmod>
   </url>
 </urlset>
