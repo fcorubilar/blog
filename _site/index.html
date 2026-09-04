@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Francisco Rubilar Rocha">
-<meta name="dcterms.date" content="2026-05-02">
-<meta name="description" content="Revisa todos los resultados que he levantando en relación a la calidad del agua del Lago Budi. Encontrarás explicaciones sobre las presiones ambientales que le afectan, la forma en que hago mi trabajo y un visualizador SIG con mediciones de calidad de agua superficial y de lecho en el Lago Budi, contrastadas con los requisitos de la Norma Chilena NCh1333. Todo esto, en el contexto del Proyecto ID 27855 financiado por el FNDR 8% Municipalidades 2025, del Gobierno Regional de La Araucanía">
 
-<title>Repositorio interactivo de la calidad de agua del Lago Budi – Francisco J. Rubilar Rocha</title>
+<title>Publicaciones y proyectos – Francisco J. Rubilar Rocha</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,23 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,10 +72,68 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../styles.css">
-</head>
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="alternate" type="application/rss+xml" title="Francisco J. Rubilar Rocha" href="index.xml" data-external="1"></head>
 
 <body class="nav-fixed quarto-light">
 
@@ -85,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Francisco J. Rubilar Rocha</span>
     </a>
   </div>
@@ -96,11 +153,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Sobre mí</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Artículos</span></a>
   </li>  
 </ul>
@@ -113,220 +170,163 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Repositorio interactivo de la calidad de agua del Lago Budi</h1>
-            <p class="subtitle lead">Proyecto Vigías del Budi - Monitoreo Participativo de la Calidad del Agua</p>
-                  <div>
-        <div class="description">
-          Revisa todos los resultados que he levantando en relación a la calidad del agua del Lago Budi. Encontrarás explicaciones sobre las presiones ambientales que le afectan, la forma en que hago mi trabajo y un visualizador SIG con mediciones de calidad de agua superficial y de lecho en el Lago Budi, contrastadas con los requisitos de la Norma Chilena NCh1333. Todo esto, en el contexto del Proyecto ID 27855 financiado por el FNDR 8% Municipalidades 2025, del Gobierno Regional de La Araucanía
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">SIG</div>
-                <div class="quarto-category">Calidad de Agua</div>
-                <div class="quarto-category">Lago Budi</div>
-                <div class="quarto-category">NCh1333</div>
-                <div class="quarto-category">Saavedra</div>
-              </div>
-                  </div>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Publicaciones y proyectos</h1>
+                      </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Francisco Rubilar Rocha </p>
-            </div>
-    </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">May 2, 2026</p>
-      </div>
-    </div>
     
-      <div>
-      <div class="quarto-title-meta-heading">Modified</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">September 3, 2026</p>
-      </div>
-    </div>
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contenidos</h2>
-   
-  <ul>
-  <li><a href="#capitulo-i---la-eutrofización-del-budi-leufu" id="toc-capitulo-i---la-eutrofización-del-budi-leufu" class="nav-link active" data-scroll-target="#capitulo-i---la-eutrofización-del-budi-leufu">Capitulo I - La eutrofización del Budi Leufu</a></li>
-  <li><a href="#capítulo-ii---campañas-de-monitoreo-de-calidad-de-agua" id="toc-capítulo-ii---campañas-de-monitoreo-de-calidad-de-agua" class="nav-link" data-scroll-target="#capítulo-ii---campañas-de-monitoreo-de-calidad-de-agua">Capítulo II - Campañas de monitoreo de calidad de agua</a></li>
-  <li><a href="#capítulo-iii---cartografía-interactiva-de-calidad-de-agua-del-lago-budi" id="toc-capítulo-iii---cartografía-interactiva-de-calidad-de-agua-del-lago-budi" class="nav-link" data-scroll-target="#capítulo-iii---cartografía-interactiva-de-calidad-de-agua-del-lago-budi">Capítulo III - Cartografía interactiva de calidad de agua del Lago Budi</a></li>
-  <li><a href="#cómo-usar-el-visualizador" id="toc-cómo-usar-el-visualizador" class="nav-link" data-scroll-target="#cómo-usar-el-visualizador">Cómo usar el visualizador</a></li>
-  <li><a href="#visualizador" id="toc-visualizador" class="nav-link" data-scroll-target="#visualizador">Visualizador</a></li>
-  <li><a href="#notas-metodológicas" id="toc-notas-metodológicas" class="nav-link" data-scroll-target="#notas-metodológicas">Notas metodológicas</a></li>
-  <li><a href="#datos-y-reproducibilidad" id="toc-datos-y-reproducibilidad" class="nav-link" data-scroll-target="#datos-y-reproducibilidad">Datos y reproducibilidad</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Ym9yZGUlMjBjb3N0ZXJv">borde costero <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q2FsaWRhZCUyMGRlJTIwQWd1YQ==">Calidad de Agua <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2VvbW9yZm9sb2clQzMlQURh">geomorfología <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2VzdGklQzMlQjNuJTIwZGVsJTIwcmllc2dv">gestión del riesgo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGFnbyUyMEJ1ZGk=">Lago Budi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TkNoMTMzMw==">NCh1333 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ciVDMyVBRG8lMjBJbXBlcmlhbA==">río Imperial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2FhdmVkcmE=">Saavedra <span class="quarto-category-count">(3)</span></div><div class="category" data-category="U0lH">SIG <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGVsZWRldGVjY2klQzMlQjNu">teledetección <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
 
-<section id="capitulo-i---la-eutrofización-del-budi-leufu" class="level2">
-<h2 class="anchored" data-anchor-id="capitulo-i---la-eutrofización-del-budi-leufu">Capitulo I - La eutrofización del Budi Leufu</h2>
-<p>El Lago Budi posee una fuerte influencia marina, proveniente del océano pacífico, generando aguas salobres que brindan condiciones únicas de hábitat a un gran número de especies, especialmente, sitios de anidamiento de avifauna endémica. Alrededor de este cuerpo de agua viven más de 7000 personas mapuche agrupadas en decenas de comunidades indígenas con un fuerte arraigo al territorio. El Budi Leufu, es un sitio prioritario según lo indicado en la ley 19.300, art. 11, letra d, y si bien, esta naturaleza jurídica se encuentra ratificada por el Ord. Nº 100143/2010 del SEA, actualmente no existe ningún instrumento de gestión para la protección y el monitoreo de parámetros sanitarios y ambientales de este único e importante cuerpo de agua.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="ISLAHUAPI.jpeg" class="img-fluid figure-img"></p>
-<figcaption><em>Imagen aérea del Sector de Isla Huapi, obtenida con Dron Phantom 4 Pro durante una de las campañas de monitoreo</em></figcaption>
-</figure>
-</div>
-<p>Durante los últimos 20 años, se ha evidenciado una proliferación anormal de algas y cianobacterias, con un aumento drástico de sedimentos nitrogenados y fosfatados acumulados en el lecho del lago, lo que ha provocado su gradual eutrofización (Beth, 2015). En 2024, la SEREMI de Salud Araucanía declaró riesgo sanitario en Puerto Domínguez debido a la alta concentración de coliformes fecales en las playas de esta localidad.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="LAGO_EUTROFIZADO2.jpeg" class="img-fluid figure-img"></p>
-<figcaption><em>Imagen aérea de un florecimiento anormal de algas en el Sector Playa La Chasquilla (Puerto Domínguez), obtenida con Dron Phantom 4 Pro durante una de las campañas de monitoreo</em></figcaption>
-</figure>
-</div>
-<p>Me permito relevar, que no son solo las poblaciones humanas las afectadas por la eutrofización del Lago. Peces y aves, algunos endémicos de la Cuenca del Lago Budi se han visto afectados seriamente por la contaminación. Se estima que los aportes de los nutrientes que provocan la eutrofización del lago tienen su origen en el exceso de aplicación de fertilizantes sintéticos y la infiltración de aguas servidas debido a la ausencia de alcantarillado y PTAS que atiendan a los habitantes de Puerto Domínguez y el sector rural.</p>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="POCHAS_VARADAS.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Evento de varamiento de ictiofauna, Cheirodon pisciculus</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="LAGO_EUTROFIZADO.jpeg" class="img-fluid figure-img" style="width:110.0%"></p>
-<figcaption>Afectación de hábitat de avifauna, Cisnes de Cuello Negro</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="capítulo-ii---campañas-de-monitoreo-de-calidad-de-agua" class="level2">
-<h2 class="anchored" data-anchor-id="capítulo-ii---campañas-de-monitoreo-de-calidad-de-agua">Capítulo II - Campañas de monitoreo de calidad de agua</h2>
-<p>La iniciativa que diseñé, contempló la adquisición de equipos profesionales de medición multiparamétrica de la calidad del agua salobre y agua dulce, la compra de reactivos para el manejo y calibración de los equipos multiparamétricos, además de la adquisición de un caudalímetro para el aforo de afluentes superficiales de la cuenca.</p>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="FCORUBILAR_CAMIONETA.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Calibración en terreno de parámetros de Oxígeno Disuelto y pH en sensor HANNA HI98594</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="GOREyFCORUBILAR.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Demostración de uso de sensor multiparamétrico al Sr.&nbsp;Gobernador de La Araucanía, Don René Saffirio</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<p>El plan de monitoreo está siendo ejecutado de forma quincenal, midiendo y muestreando en cada campaña 10 puntos de la cuenca que coincidan con las descargas de los afluentes de mayor caudal al Lago Budi. Sin desmedro de ese protocolo, también se ha recopilado información en los sectores donde ha sucedido varamiento de ictiofauna.</p>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="FCORUBILAR_BOTE.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Medición multiparamétrica de calidad de agua en el interior del Lago Budi, sector “Punta El Toro”</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="FCORUBILAR_LAGO2.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Medición multiparamétrica de calidad de agua en la ribera del Lago Budi, sector “Romopulli”</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<p>El proyecto contempló levantar un programa de formación en calidad de agua mediante un llamado abierto a la comunidad. A la fecha se han intervenido 2 escuelas rurales y a la <strong>Mesa Territorial de Pueblo Originarios</strong>, a quienes se les ha capacitado para apoyar el programa de medición de parámetros y muestreo del agua a nivel territorial.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="CLASES_AGUA.jpeg" class="img-fluid figure-img"></p>
-<figcaption><em>Taller de calidad de agua para niños de Escuela Rural Sol Naciente de Romopulli. Posterior al taller se dejaron 4 Checkers Digitales para su uso permanente por parte de la Escuela</em></figcaption>
-</figure>
-</div>
-</section>
-<section id="capítulo-iii---cartografía-interactiva-de-calidad-de-agua-del-lago-budi" class="level2">
-<h2 class="anchored" data-anchor-id="capítulo-iii---cartografía-interactiva-de-calidad-de-agua-del-lago-budi">Capítulo III - Cartografía interactiva de calidad de agua del Lago Budi</h2>
-<p>Uno de los resultados generados fue una cartografía interactiva que permite explorar mediciones de calidad de agua tomadas en el Lago Budi, comuna de Saavedra. La campaña cubrió <strong>17 estaciones de muestreo</strong> distribuidas a lo largo del cuerpo lacustre, con registros tanto en <strong>superficie</strong> como en <strong>lecho</strong>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="FCORUBILAR_BN.jpeg" class="img-fluid figure-img"></p>
-<figcaption><em>Fotografía preparando el sensor multiparamétrico y envases de muestras sobre la lancha en medio del Lago Budi, altura de Isla Nahuelhuapi</em></figcaption>
-</figure>
-</div>
-<p>Para cada punto se midieron ocho parámetros mediante sensor multiparamétrico in situ: pH, oxígeno disuelto (mg/L y porcentaje de saturación), turbiedad (FNU), temperatura, potencial de oxidación-reducción (ORP), conductividad eléctrica, sólidos disueltos totales (TDS) y salinidad (PSU).</p>
-<p>Los resultados se contrastan con los requisitos de la <strong>Norma Chilena NCh1333.Of78 (modificada en 1987)</strong>, en particular el Artículo 7.2.1, Tabla 3, correspondiente a aguas destinadas a recreación con contacto directo (natación, buceo, esquí acuático).</p>
-</section>
-<section id="cómo-usar-el-visualizador" class="level2">
-<h2 class="anchored" data-anchor-id="cómo-usar-el-visualizador">Cómo usar el visualizador</h2>
-<p>En el panel lateral puedes:</p>
-<ul>
-<li>Seleccionar el <strong>parámetro</strong> a cartografiar.</li>
-<li>Cambiar entre vista de <strong>superficie</strong> y <strong>lecho</strong>.</li>
-<li>Cambiar el <strong>mapa base</strong> (calles, satélite, topográfico).</li>
-<li>Ver la <strong>leyenda NCh1333</strong> correspondiente al parámetro seleccionado, con bandas de cumplimiento.</li>
-<li>Consultar <strong>estadísticos descriptivos</strong> (mínimo, máximo, promedio) calculados sobre todas las estaciones.</li>
-</ul>
-<p>Al hacer clic sobre cualquier estación se despliega un popup con todos los parámetros medidos en ese punto y su clasificación según la norma.</p>
-</section>
-<section id="visualizador" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="visualizador">Visualizador</h2>
-<div class="column-screen-inset">
-<iframe src="webmap.html" width="100%" height="800px" style="border: 1px solid #2a3b5a; border-radius: 8px;" title="SIG Lago Budi - Cartografía de calidad de agua">
-</iframe>
-</div>
-<p><a href="webmap.html" class="btn btn-primary" target="_blank">Abrir el visualizador en pestaña completa →</a></p>
-</section>
-<section id="notas-metodológicas" class="level2">
-<h2 class="anchored" data-anchor-id="notas-metodológicas">Notas metodológicas</h2>
-<p><strong>Sobre el equipo de medición</strong>: las mediciones se realizaron con sensor multiparamétrico Hanna HI98594, calibrado previo a la jornada de campo. La precisión nominal de cada parámetro está dentro de los rangos aceptados para monitoreo ambiental de cuerpos de agua superficiales.</p>
-<p><strong>Sobre el contexto del Lago Budi</strong>: el Budi es una cuenca costera <strong>mixohalina</strong> —cuerpo de agua semi-cerrado con conexión periódica al océano— ubicado en territorio mapuche-lafkenche. Los valores de salinidad varían fuertemente entre sectores conectados al mar y sectores con aporte exclusivo de tributarios dulces. Esta heterogeneidad debe considerarse al interpretar los gradientes espaciales.</p>
-<p><strong>Sobre la NCh1333</strong>: la norma referida regula los requisitos de calidad de agua para distintos usos (consumo humano, riego, recreación, vida acuática). En este visualizador se aplica específicamente la tabla de uso recreativo con contacto directo. Para otros usos (riego, vida acuática), las bandas de cumplimiento son distintas.</p>
-<p><strong>Sobre las limitaciones</strong>: una campaña puntual de un día entrega una fotografía instantánea del estado del cuerpo de agua. Para conclusiones robustas sobre el comportamiento del lago es necesario monitoreo continuo o al menos campañas estacionales repetidas. Este visualizador documenta una jornada específica y debe leerse como tal.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="FCORUBILAR_NOCHE.jpeg" class="img-fluid figure-img"></p>
-<figcaption><em>Fotografía de monitoreo nocturno en sector “Romopulli”</em></figcaption>
-</figure>
-</div>
-</section>
-<section id="datos-y-reproducibilidad" class="level2">
-<h2 class="anchored" data-anchor-id="datos-y-reproducibilidad">Datos y reproducibilidad</h2>
-<p>Las coordenadas de las estaciones están en sistema <strong>WGS84 (EPSG:32718)</strong>. La geometría espacial fue capturada con GPS de mano, con precisión submétrica para fines cartográficos (no topográficos).</p>
-<p>Si trabajas en gestión de cuerpos de agua y te interesa replicar este enfoque metodológico en otra cuenca, puedes escribirme a <a href="mailto:fcorubilarrocha@gmail.com">fcorubilarrocha@gmail.com</a>.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="dGVsZWRldGVjY2klQzMlQjNuJTJDYm9yZGUlMjBjb3N0ZXJvJTJDciVDMyVBRG8lMjBJbXBlcmlhbCUyQ1NhYXZlZHJhJTJDZ2VvbW9yZm9sb2clQzMlQURh" data-listing-date-sort="1787976000000" data-listing-file-modified-sort="1788493627739" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2237">
+<div class="thumbnail"><a href="./posts/migracion-desembocadura-imperial/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/migracion-desembocadura-imperial/img/lamina-migracion-boca.png" class="thumbnail-image" alt="Cartografía de la migración de la desembocadura del río Imperial entre 1986 y 2026">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/migracion-desembocadura-imperial/index.html" class="no-external">La desembocadura que se mueve</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/migracion-desembocadura-imperial/index.html" class="no-external">Mil ciento cincuenta y tres metros hacia el sur en cuarenta años</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('dGVsZWRldGVjY2klQzMlQjNu'); return false;">teledetección</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ym9yZGUlMjBjb3N0ZXJv'); return false;">borde costero</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ciVDMyVBRG8lMjBJbXBlcmlhbA=='); return false;">río Imperial</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2FhdmVkcmE='); return false;">Saavedra</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VvbW9yZm9sb2clQzMlQURh'); return false;">geomorfología</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/migracion-desembocadura-imperial/index.html" class="no-external">
+<p>La boca del río Imperial migra hacia el sur desde el maremoto de 1960. Ahora sabemos a qué velocidad, cuándo cambió de ritmo y por qué dejó de cerrarse.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/migracion-desembocadura-imperial/index.html" class="no-external">
+<div class="listing-date">
+Aug 29, 2026
+</div>
+<div class="listing-author">
+Francisco Rubilar Rocha
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="dGVsZWRldGVjY2klQzMlQjNuJTJDYm9yZGUlMjBjb3N0ZXJvJTJDU2FhdmVkcmElMkNnZXN0aSVDMyVCM24lMjBkZWwlMjByaWVzZ28=" data-listing-date-sort="1787025600000" data-listing-file-modified-sort="1788493627726" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2061">
+<div class="thumbnail"><a href="./posts/linea-costa-saavedra/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts\linea-costa-saavedra\playamauleponiente.JPG"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/linea-costa-saavedra/index.html" class="no-external">Cuánta playa ha perdido Puerto Saavedra</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/linea-costa-saavedra/index.html" class="no-external">Cuatro décadas de línea de costa medidas con datos satelitales</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('dGVsZWRldGVjY2klQzMlQjNu'); return false;">teledetección</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ym9yZGUlMjBjb3N0ZXJv'); return false;">borde costero</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2FhdmVkcmE='); return false;">Saavedra</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VzdGklQzMlQjNuJTIwZGVsJTIwcmllc2dv'); return false;">gestión del riesgo</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/linea-costa-saavedra/index.html" class="no-external">
+<p>El frente costero del sector de Playa Maule en Puerto Saavedra retrocede 4,36 metros al año. No se había medido antes con esta exactitud. En este artículo te muestro el proceso de obtención de imágenes satelitales, su geoprocesamiento, vectorización y análisis estadístico. Todas las operaciones basadas en la evidencia más actualizada, se ejecutaron en software de código abierto. Un proceso gratis y replicable para mejorar la gestión ambiental y de riesgo del desastre a nivel local.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/linea-costa-saavedra/index.html" class="no-external">
+<div class="listing-date">
+Aug 18, 2026
+</div>
+<div class="listing-author">
+Francisco Rubilar Rocha
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="U0lHJTJDQ2FsaWRhZCUyMGRlJTIwQWd1YSUyQ0xhZ28lMjBCdWRpJTJDTkNoMTMzMyUyQ1NhYXZlZHJh" data-listing-date-sort="1777694400000" data-listing-file-modified-sort="1788493627740" data-listing-date-modified-sort="1788493627000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1080">
+<div class="thumbnail"><a href="./posts/sig-lago-budi/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts\sig-lago-budi\ISLAHUAPI.jpeg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/sig-lago-budi/index.html" class="no-external">Repositorio interactivo de la calidad de agua del Lago Budi</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/sig-lago-budi/index.html" class="no-external">Proyecto Vigías del Budi - Monitoreo Participativo de la Calidad del Agua</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U0lH'); return false;">SIG</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FsaWRhZCUyMGRlJTIwQWd1YQ=='); return false;">Calidad de Agua</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGFnbyUyMEJ1ZGk='); return false;">Lago Budi</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TkNoMTMzMw=='); return false;">NCh1333</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2FhdmVkcmE='); return false;">Saavedra</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/sig-lago-budi/index.html" class="no-external">
+<p>Revisa todos los resultados que he levantando en relación a la calidad del agua del Lago Budi. Encontrarás explicaciones sobre las presiones ambientales que le afectan, la forma en que hago mi trabajo y un visualizador SIG con mediciones de calidad de agua superficial y de lecho en el Lago Budi, contrastadas con los requisitos de la Norma Chilena NCh1333. Todo esto, en el contexto del Proyecto ID 27855 financiado por el FNDR 8% Municipalidades 2025, del Gobierno Regional de La Araucanía</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/sig-lago-budi/index.html" class="no-external">
+<div class="listing-date">
+May 2, 2026
+</div>
+<div class="listing-author">
+Francisco Rubilar Rocha
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
