@@ -10,6 +10,7 @@ categories: [teledetección, borde costero, río Imperial, Saavedra, geomorfolog
 image: img/lamina-migracion-boca.png
 image-alt: "Cartografía de la migración de la desembocadura del río Imperial entre 1986 y 2026"
 lang: es
+draft: true
 toc: true
 toc-title: "Contenidos"
 execute:
